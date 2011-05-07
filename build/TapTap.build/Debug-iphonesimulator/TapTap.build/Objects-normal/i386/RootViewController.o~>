@@ -1,0 +1,2 @@
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/RootViewController.m:73: warning: property 'gameViewController' requires method '-gameViewController' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/RootViewController.m:73: warning: property 'gameViewController' requires the method 'setGameViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation

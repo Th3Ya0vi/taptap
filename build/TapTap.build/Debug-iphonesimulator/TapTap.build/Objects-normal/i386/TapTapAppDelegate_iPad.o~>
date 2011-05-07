@@ -1,0 +1,16 @@
+In file included from /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m:9:
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.h:15: error: expected specifier-qualifier-list before 'RootViewController'
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.h:19: error: expected specifier-qualifier-list before 'RootViewController'
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m:14: warning: cannot find interface declaration for 'TapTapAppDelegate_iPad'
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m:14: error: no declaration of property 'window' found in the interface
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m:15: error: no declaration of property 'viewController' found in the interface
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m: In function '-[TapTapAppDelegate_iPad application:didFinishLaunchingWithOptions:]':
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m:26: error: request for member 'window' in something not a structure or union
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m:26: error: 'viewController' undeclared (first use in this function)
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m:26: error: (Each undeclared identifier is reported only once
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m:26: error: for each function it appears in.)
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m:27: error: request for member 'window' in something not a structure or union
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m: In function '-[TapTapAppDelegate_iPad dealloc]':
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m:82: error: 'viewController' undeclared (first use in this function)
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m:83: error: 'window' undeclared (first use in this function)
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m:84: error: no super class declared in @interface for 'TapTapAppDelegate_iPad'
