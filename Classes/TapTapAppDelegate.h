@@ -13,10 +13,25 @@
 @interface TapTapAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     RootViewController *viewController;
+	
+	// XML parsing
+	NSMutableData *responseData;
+	NSXMLParser *highScoresParser;
+	NSMutableArray *highScores;
+	NSMutableDictionary *newScore;
+	NSString *currentKey;
+	NSMutableString *currentStringValue;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet RootViewController *viewController;
+
+// XML parsing
+@property (nonatomic, retain) NSMutableArray *highScores;
+
+- (void) getHighScore;
+- (void) getHighScoresFromWebService: (NSString) *urlString;
+- (void) parseHighScores: (NS Data *) highScoresXMLData;
 
 @end
 
