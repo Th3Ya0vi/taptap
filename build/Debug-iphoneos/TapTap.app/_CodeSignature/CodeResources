@@ -26,11 +26,11 @@
 		</data>
 		<key>GameView.nib</key>
 		<data>
-		ndEFGYIVQF24mJt3sBSpWb1v/8E=
+		9TfAlDBnLfdXjZnwYBQk236mjJU=
 		</data>
 		<key>HighScoresView.nib</key>
 		<data>
-		0hkvkQgkCXEARkXO+f/R4hN+r/Y=
+		868xroibaSUqY3qup9zq+TwztgY=
 		</data>
 		<key>Icon.png</key>
 		<data>
@@ -67,6 +67,18 @@
 		<key>RootViewController_iPad.nib</key>
 		<data>
 		zhV4+3BISLfNMF5UxcmeT4Ul0UI=
+		</data>
+		<key>Settings.bundle/Root.plist</key>
+		<data>
+		jCDiz8OqDBxQZWlu3c/hB6yLCgU=
+		</data>
+		<key>Settings.bundle/en.lproj/Root.strings</key>
+		<data>
+		t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
+		</data>
+		<key>Silom.ttf</key>
+		<data>
+		5RZVmmcFhIUlsQ+GBXWYl5CWcKs=
 		</data>
 		<key>cold_tapioca.png</key>
 		<data>

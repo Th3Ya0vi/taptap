@@ -10,7 +10,7 @@
 
 @class RootViewController;
 
-@interface TapTapAppDelegate : NSObject <UIApplicationDelegate> {
+@interface TapTapAppDelegate : NSObject <UIApplicationDelegate, NSXMLParserDelegate> {
     UIWindow *window;
     RootViewController *viewController;
 	
@@ -29,9 +29,9 @@
 // XML parsing
 @property (nonatomic, retain) NSMutableArray *highScores;
 
-- (void) getHighScore;
-- (void) getHighScoresFromWebService: (NSString) *urlString;
-- (void) parseHighScores: (NS Data *) highScoresXMLData;
+- (void) getHighScores;
+- (void) getHighScoresFromWebService: (NSString *) urlString;
+- (void) parseHighScores: (NSData *) highScoresXMLData;
 
 @end
 

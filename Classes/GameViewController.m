@@ -9,6 +9,10 @@
 #import "GameViewController.h"
 #import "ResultViewController.h"
 
+#define HIGH_SCORES_URL			@"http://modocache.webfactional.com/apps/taptap/leaderboard.xml"
+#define kUsernameKey			@"name_preference"
+#define kScoresUploadKey		@"scores_preference"
+
 @implementation GameViewController
 
 @synthesize delegate;
@@ -23,9 +27,72 @@
 @synthesize counterLabel;
 
 
-//- (IBAction)done:(id)sender {
-//	[self.delegate gameViewControllerDidFinish:self];	
-//}
+
+#pragma mark -
+#pragma mark High Score Methods
+
+- (void) submitHighScoreWithUsername: (NSString *) username {
+	NSLog(@"Submitting high score...");
+	
+	NSString *urlString = HIGH_SCORES_URL;
+	NSURL *url = [NSURL URLWithString: urlString];
+	
+	NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL: url]; // it is mutable, since we edit to http method etc below
+	[request setHTTPMethod: @"POST"];
+	[request setValue: @"text/xml" forHTTPHeaderField: @"Content-Type"];
+	
+	NSMutableData *highScoreData = [NSMutableData data];
+	[highScoreData appendData: [[NSString stringWithFormat: @"player_name=%@;", username] dataUsingEncoding: NSUTF8StringEncoding]];
+	[highScoreData appendData: [[NSString stringWithFormat: @"score=%d", tps] dataUsingEncoding: NSUTF8StringEncoding]];
+	[request setHTTPBody: highScoreData];
+	NSLog(@"%@", highScoreData);
+	
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible: YES];
+	
+	NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest: request 
+																  delegate: self];
+	if (!connection) {
+		NSLog(@"Request to send high scores appears to be invalid.");
+		[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible: NO];
+	}
+}
+
+- (void) connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible: NO];
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @"Not Connected to the Internet" 
+													message: @"Your score could not be posted to the online leaderboards." 
+												   delegate: self 
+										  cancelButtonTitle: @"OK" 
+										  otherButtonTitles: nil];
+	[alert show];
+	[alert release];
+}
+
+- (void) connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+	NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
+	NSInteger statusCode = [httpResponse statusCode];
+	if (statusCode == 404 || statusCode == 500) {
+		[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible: NO];
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @"Server Error" 
+															message: @"Your score could not be posted to the online leaderboards dur to a server error. We aplogize for the inconvenience." 
+														   delegate: self 
+												  cancelButtonTitle: @"OK" 
+												  otherButtonTitles: nil];
+		[alert show];
+		[alert release];
+	} else if (statusCode == 403) {
+		[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible: NO];
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @"Invalid Username" 
+														message: @"Your score could not be posted to the online leaderboards due to an invalid username." 
+													   delegate: self 
+											  cancelButtonTitle: @"OK" 
+											  otherButtonTitles: nil];
+		[alert show];
+		[alert release];
+	} else if ( statusCode == 200 ) {
+		[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible: NO];
+	}
+}
 
 
 #pragma mark -
@@ -168,6 +235,13 @@
 	
 	if (self.flashLayer.alpha >= 1) {
 		[timer invalidate];
+		
+		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+		BOOL post_online = (BOOL) [defaults objectForKey: kScoresUploadKey];
+		if (post_online) {
+			[self submitHighScoreWithUsername: [defaults objectForKey: kUsernameKey]];
+		}
+		
 		self.resultViewController = [[ResultViewController alloc] initWithNibName: @"ResultView" 
 																		   bundle: nil];
 		self.resultViewController.delegate = self;
@@ -199,6 +273,16 @@
 //	if (tap == nil) {
 //		tap = [[UIImage imageNamed: @"tap.png"] retain];
 //	}
+	// counterLabel.font = [UIFont fontWithName: @"Silom" size: 90];
+	
+	for (UIView *v in self.view.subviews) {
+		if ([v isKindOfClass:[UILabel class]]) {
+		  UILabel *label = (UILabel*)v;
+
+		  [label setFont:[UIFont fontWithName:@"Silom" size:label.font.pointSize]];
+		}
+	}
+	
 	gameOn = NO;
 	intervalsElapsed = 0;
 	timeLimit = arc4random() % 1 + 10;	// timeLimit is anywhere from 10 to 20 seconds

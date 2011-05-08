@@ -91,7 +91,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">0</string>
 						<object class="NSFont" key="IBUIFont">
-							<string key="NSName">Helvetica</string>
+							<string key="NSName">Silom</string>
 							<double key="NSSize">144</double>
 							<int key="NSfFlags">16</int>
 						</object>

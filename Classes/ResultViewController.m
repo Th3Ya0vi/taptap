@@ -59,6 +59,14 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	
+	for (UIView *v in self.view.subviews) {
+		if ([v isKindOfClass:[UILabel class]]) {
+		  UILabel *label = (UILabel*)v;
+
+		  [label setFont:[UIFont fontWithName:@"Silom" size:label.font.pointSize]];
+		}
+	}
+	
 	tapsPerSecondLabel.text = [NSString stringWithFormat:@"%d", tps];
 	totalTapsLabel.text = [NSString stringWithFormat: @"%d", totalTaps];
 	timeElapsedLabel.text = [NSString stringWithFormat: @"0:%02d", seconds];
@@ -98,6 +106,10 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 	
+	self.delegate = nil;
+	self.mainMenuViewController = nil;
+	self.gameViewController = nil;
+	
 	self.tapsPerSecondLabel = nil;
 	self.totalTapsLabel = nil;
 	self.timeElapsedLabel = nil;
@@ -106,12 +118,15 @@
 
 
 - (void)dealloc {
+	[delegate release];
+	[mainMenuViewController release];
+	[gameViewController release];
+	
 	[tapsPerSecondLabel release];
 	[totalTapsLabel release];
 	[timeElapsedLabel release];
 	[rank release];
     [super dealloc];
 }
-
 
 @end

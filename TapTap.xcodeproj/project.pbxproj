@@ -59,6 +59,8 @@
 		DA5AB8971371711100147B9E /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5AB8961371711100147B9E /* MainWindow_iPad.xib */; };
 		DA5AB8C3137171C100147B9E /* TapTapAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AB8C2137171C100147B9E /* TapTapAppDelegate_iPad.m */; };
 		DA5AB8C91371726B00147B9E /* RootViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AB8C81371726B00147B9E /* RootViewController_iPad.m */; };
+		DAECC3DD13762DDE001280F6 /* Silom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAECC3DC13762DDE001280F6 /* Silom.ttf */; };
+		DAECC4E1137690D5001280F6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAECC4E0137690D5001280F6 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,6 +128,8 @@
 		DA5AB8C2137171C100147B9E /* TapTapAppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TapTapAppDelegate_iPad.m; path = Classes/TapTapAppDelegate_iPad.m; sourceTree = "<group>"; };
 		DA5AB8C71371726B00147B9E /* RootViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController_iPad.h; sourceTree = "<group>"; };
 		DA5AB8C81371726B00147B9E /* RootViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController_iPad.m; sourceTree = "<group>"; };
+		DAECC3DC13762DDE001280F6 /* Silom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silom.ttf; sourceTree = "<group>"; };
+		DAECC4E0137690D5001280F6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				DA2199B813726469000A250A /* Resources */,
+				DAECC4E0137690D5001280F6 /* Settings.bundle */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107310486CEB800E47090 /* TapTap-Info.plist */,
+				DAECC3DE13762DEA001280F6 /* Fonts */,
 				DA219A16137283AE000A250A /* Images */,
 				DA219A0413726F49000A250A /* Icons */,
 				DA2199EE13726C80000A250A /* Launch Images */,
@@ -373,6 +379,14 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		DAECC3DE13762DEA001280F6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DAECC3DC13762DDE001280F6 /* Silom.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -462,6 +476,8 @@
 				DA32C5321375203D00255D64 /* rank.png in Resources */,
 				DA32C5331375203D00255D64 /* total_loser.png in Resources */,
 				DA32C5341375203D00255D64 /* cold_tapioca.png in Resources */,
+				DAECC3DD13762DDE001280F6 /* Silom.ttf in Resources */,
+				DAECC4E1137690D5001280F6 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

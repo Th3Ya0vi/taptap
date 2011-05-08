@@ -66,12 +66,20 @@
 */
 
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	for (UIView *v in self.view.subviews) {
+		if ([v isKindOfClass:[UILabel class]]) {
+		  UILabel *label = (UILabel*)v;
+
+		  [label setFont:[UIFont fontWithName:@"Silom" size:label.font.pointSize]];
+		}
+	}
 }
-*/
+
 
 
 /*
