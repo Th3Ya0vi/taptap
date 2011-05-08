@@ -85,6 +85,7 @@
 - (void)dealloc {
     [viewController release];
     [window release];
+	[highScores release];
     [super dealloc];
 }
 

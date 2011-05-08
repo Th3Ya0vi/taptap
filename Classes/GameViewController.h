@@ -51,8 +51,3 @@
 - (void) gameLogic: (NSTimer *) timer;
 
 @end
-
-
-@protocol GameViewControllerDelegate
-- (void) gameViewControllerDidFinish: (GameViewController *)controller;
-@end

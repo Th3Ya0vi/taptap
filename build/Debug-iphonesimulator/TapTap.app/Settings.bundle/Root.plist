@@ -10,7 +10,7 @@
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
-			<string>Leaderboard</string>
+			<string>Leaderboard Preferences</string>
 		</dict>
 		<dict>
 			<key>Type</key>
@@ -39,6 +39,26 @@
 			<string>scores_preference</string>
 			<key>DefaultValue</key>
 			<true/>
+			<key>TrueValue</key>
+			<true/>
+			<key>FalseValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Game Preferences</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Randomize time limit</string>
+			<key>Key</key>
+			<string>random_preference</string>
+			<key>DefaultValue</key>
+			<false/>
 			<key>TrueValue</key>
 			<true/>
 			<key>FalseValue</key>

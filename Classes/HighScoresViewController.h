@@ -9,12 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @class MainMenuViewController;
+@class TapTapAppDelegate;
 
 @interface HighScoresViewController : UIViewController {
 	id delegate;
 	
 	UIButton *backButton;
 	MainMenuViewController *mainMenuViewController;
+	TapTapAppDelegate *tapTapAppDelegate;
 	
 	// obviously, there's a better way to do this, i'm sure
 	UILabel *player_name_1;
@@ -41,6 +43,7 @@
 @property (nonatomic, assign) id delegate;
 @property (nonatomic, retain) IBOutlet UIButton *backButton;
 @property (nonatomic, retain) MainMenuViewController *mainMenuViewController;
+@property (nonatomic, retain) TapTapAppDelegate *tapTapAppDelegate;
 
 @property (nonatomic, retain) IBOutlet UILabel *player_name_1;
 @property (nonatomic, retain) IBOutlet UILabel *score_1;

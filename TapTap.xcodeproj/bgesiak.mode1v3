@@ -269,17 +269,6 @@
 								<string>DAECC3DE13762DEA001280F6</string>
 								<string>DA219A0413726F49000A250A</string>
 								<string>DAECC4E0137690D5001280F6</string>
-								<string>29B97315FDCFA39411CA2CEA</string>
-								<string>DA5AB8C5137171D400147B9E</string>
-								<string>DA5AB8C6137171DA00147B9E</string>
-								<string>DA5AB8951371711000147B9E</string>
-								<string>DA5AB8C4137171CA00147B9E</string>
-								<string>080E96DDFE201D6D7F000001</string>
-								<string>DA32C4561374F7A600255D64</string>
-								<string>DA32C1501374B16C00255D64</string>
-								<string>DA32C14F1374B16000255D64</string>
-								<string>DA32C14E1374B14F00255D64</string>
-								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
@@ -288,15 +277,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>32</integer>
-									<integer>31</integer>
-									<integer>27</integer>
-									<integer>26</integer>
+									<integer>16</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 245}, {306, 588}}</string>
+							<string>{{0, 0}, {306, 588}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -315,7 +301,7 @@
 							<real>306</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>5 131 1280 647 0 0 1280 778 </string>
+						<string>6 131 1280 647 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -333,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GameViewController.h</string>
+								<string>HighScoresViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -341,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GameViewController.h</string>
+										<string>HighScoresViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DAECC5351376A158001280F6</string>
+										<string>DAECC5B81376AD0A001280F6</string>
 										<key>history</key>
 										<array>
 											<string>DA5AB8D1137198EC00147B9E</string>
@@ -363,7 +349,6 @@
 											<string>DA32C3FF1374ED3200255D64</string>
 											<string>DA32C4021374ED3200255D64</string>
 											<string>DA32C49D1375096000255D64</string>
-											<string>DA32C4AE137509D400255D64</string>
 											<string>DA32C4DF13750E8C00255D64</string>
 											<string>DA32C52313751D4C00255D64</string>
 											<string>DA32C53E1375243200255D64</string>
@@ -380,21 +365,22 @@
 											<string>DAECC3E313762DFE001280F6</string>
 											<string>DAECC3ED13762EA9001280F6</string>
 											<string>DAECC3EE13762EA9001280F6</string>
-											<string>DAECC40A13763228001280F6</string>
-											<string>DAECC4D413768B3E001280F6</string>
 											<string>DAECC4EF137694AB001280F6</string>
-											<string>DAECC4F0137694AB001280F6</string>
-											<string>DAECC5191376997F001280F6</string>
-											<string>DAECC51A1376997F001280F6</string>
-											<string>DAECC51B1376997F001280F6</string>
-											<string>DAECC52113769B89001280F6</string>
-											<string>DAECC52213769B89001280F6</string>
 											<string>DAECC52313769B89001280F6</string>
-											<string>DAECC52413769B89001280F6</string>
-											<string>DAECC5311376A158001280F6</string>
-											<string>DAECC5321376A158001280F6</string>
-											<string>DAECC5331376A158001280F6</string>
-											<string>DAECC5341376A158001280F6</string>
+											<string>DAECC53D1376A31C001280F6</string>
+											<string>DAECC5691376A5D9001280F6</string>
+											<string>DAECC56A1376A5D9001280F6</string>
+											<string>DAECC56B1376A5D9001280F6</string>
+											<string>DAECC5761376A63E001280F6</string>
+											<string>DAECC58E1376A871001280F6</string>
+											<string>DAECC5991376AA8E001280F6</string>
+											<string>DAECC59C1376AAFC001280F6</string>
+											<string>DAECC5A31376ABC9001280F6</string>
+											<string>DAECC5A41376ABC9001280F6</string>
+											<string>DAECC5A51376ABC9001280F6</string>
+											<string>DAECC5A61376ABC9001280F6</string>
+											<string>DAECC5AC1376ABE0001280F6</string>
+											<string>DAECC5AD1376ABE0001280F6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -408,7 +394,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {952, 466}}</string>
 								<key>RubberWindowFrame</key>
-								<string>5 131 1280 647 0 0 1280 778 </string>
+								<string>6 131 1280 647 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -428,7 +414,7 @@
 								<key>Frame</key>
 								<string>{{0, 471}, {952, 135}}</string>
 								<key>RubberWindowFrame</key>
-								<string>5 131 1280 647 0 0 1280 778 </string>
+								<string>6 131 1280 647 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -595,13 +581,13 @@
 		<string>DAECC475137663BB001280F6</string>
 		<string>DAECC38D1376115D001280F6</string>
 		<string>DAECC38E1376115D001280F6</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>DA5AB8A31371716400147B9E</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/TapTap.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>5 131 1280 647 0 0 1280 778 </string>
+	<string>6 131 1280 647 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -982,7 +968,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

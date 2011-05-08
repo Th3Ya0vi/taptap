@@ -12,6 +12,7 @@
 #define HIGH_SCORES_URL			@"http://modocache.webfactional.com/apps/taptap/leaderboard.xml"
 #define kUsernameKey			@"name_preference"
 #define kScoresUploadKey		@"scores_preference"
+#define kRandomizeKey			@"random_preference"
 
 @implementation GameViewController
 
@@ -201,7 +202,7 @@
 #pragma mark -
 #pragma mark Game Logic
 
-- (void) gameLogic: (NSTimer *)timer {
+- (void) gameLogic: (NSTimer *) localTimer {
 	gameOn = YES;
 	intervalsElapsed++;
 	tps = count/(intervalsElapsed/30.0);
@@ -234,13 +235,15 @@
 	}
 	
 	if (self.flashLayer.alpha >= 1) {
-		[timer invalidate];
+		[localTimer invalidate];
 		
 		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 		BOOL post_online = (BOOL) [defaults objectForKey: kScoresUploadKey];
 		if (post_online) {
 			[self submitHighScoreWithUsername: [defaults objectForKey: kUsernameKey]];
 		}
+		defaults = nil;
+		[defaults release];
 		
 		self.resultViewController = [[ResultViewController alloc] initWithNibName: @"ResultView" 
 																		   bundle: nil];
@@ -270,10 +273,6 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-//	if (tap == nil) {
-//		tap = [[UIImage imageNamed: @"tap.png"] retain];
-//	}
-	// counterLabel.font = [UIFont fontWithName: @"Silom" size: 90];
 	
 	for (UIView *v in self.view.subviews) {
 		if ([v isKindOfClass:[UILabel class]]) {
@@ -285,7 +284,18 @@
 	
 	gameOn = NO;
 	intervalsElapsed = 0;
-	timeLimit = arc4random() % 1 + 10;	// timeLimit is anywhere from 10 to 20 seconds
+	
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	BOOL randomize = (BOOL) [defaults objectForKey: kRandomizeKey];
+	if (randomize) {
+		timeLimit = arc4random() % 8 + 8;	// timeLimit is anywhere from 8 to 16 seconds
+	} else {
+		timeLimit = 12;
+	}
+	defaults = nil;
+	[defaults release];
+	
+	
 	taps = [[NSMutableArray alloc] init];
 	[self startupAnimations];
 	[self performSelector: @selector(initializeTimer) 
@@ -316,20 +326,26 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 	
+	self.delegate = nil;
 	self.tapToWin = nil;
 	self.ready = nil;
 	self.instructions = nil;
 	self.totalTaps = nil;
+	self.flashLayer = nil;
+	self.counterLabel = nil;
  	self.taps = nil;
 	self.resultViewController = nil;
 }
 
 
 - (void)dealloc {
+	[delegate release];
 	[tapToWin release];
 	[ready release];
 	[instructions release];
 	[totalTaps release];
+	[flashLayer release];
+	[counterLabel release];
 	[taps release];
     [resultViewController release];
 	[super dealloc];

@@ -100,18 +100,22 @@
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
+	self.delegate = nil;
 	self.startButton = nil;
 	self.highScoresButton = nil;
 	
 	self.highScoresViewController = nil;
+	self.gameViewController = nil;
 }
 
 
 - (void)dealloc {
+	[delegate release];
 	[startButton release];
 	[highScoresButton release];
 	
 	[highScoresViewController release];
+	[gameViewController release];
     [super dealloc];
 }
 
