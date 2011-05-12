@@ -26,7 +26,7 @@
 	UILabel *timeElapsedLabel;
 	int seconds;
 	
-	UIImageView *rank;
+	UILabel *rank;
 }
 
 @property (nonatomic, assign) id delegate;
@@ -39,7 +39,7 @@
 @property int totalTaps;
 @property (nonatomic, retain) IBOutlet UILabel *timeElapsedLabel;
 @property int seconds;
-@property (nonatomic, retain) IBOutlet UIImageView *rank;
+@property (nonatomic, retain) IBOutlet UILabel *rank;
 
 - (IBAction) playAgainButtonPressed;
 - (IBAction) mainMenuButtonPressed;

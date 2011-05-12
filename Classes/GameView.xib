@@ -66,18 +66,6 @@
 							<string key="NSResourceName">ready.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="1044867280">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">-2147483356</int>
-						<string key="NSFrame">{{67, 49}, {186, 27}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">taptaptap.png</string>
-						</object>
-					</object>
 					<object class="IBUILabel" id="31270546">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">-2147483356</int>
@@ -98,7 +86,7 @@
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
-							<object class="NSColorSpace" key="NSCustomColorSpace">
+							<object class="NSColorSpace" key="NSCustomColorSpace" id="358830019">
 								<int key="NSID">1</int>
 							</object>
 						</object>
@@ -131,6 +119,32 @@
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">total_taps.png</string>
 						</object>
+					</object>
+					<object class="IBUILabel" id="1054100093">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">-2147483356</int>
+						<string key="NSFrame">{{32, 44}, {268, 49}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<int key="IBUIContentMode">7</int>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<string key="IBUIText">TAP TAP TAP!!</string>
+						<object class="NSFont" key="IBUIFont">
+							<string key="NSName">Helvetica</string>
+							<double key="NSSize">36</double>
+							<int key="NSfFlags">16</int>
+						</object>
+						<object class="NSColor" key="IBUITextColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MSAxIDEAA</bytes>
+							<reference key="NSCustomColorSpace" ref="358830019"/>
+						</object>
+						<reference key="IBUIHighlightedColor" ref="732087902"/>
+						<int key="IBUIBaselineAdjustment">1</int>
+						<float key="IBUIMinimumFontSize">10</float>
+						<int key="IBUITextAlignment">1</int>
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 460}</string>
@@ -179,14 +193,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">instructions</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="1044867280"/>
-					</object>
-					<int key="connectionID">12</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">flashLayer</string>
 						<reference key="source" ref="372490531"/>
 						<reference key="destination" ref="282334455"/>
@@ -200,6 +206,14 @@
 						<reference key="destination" ref="464791731"/>
 					</object>
 					<int key="connectionID">19</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">instructions</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="1054100093"/>
+					</object>
+					<int key="connectionID">21</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -218,10 +232,10 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="480762111"/>
 							<reference ref="745831283"/>
-							<reference ref="1044867280"/>
 							<reference ref="31270546"/>
 							<reference ref="282334455"/>
 							<reference ref="464791731"/>
+							<reference ref="1054100093"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -247,11 +261,6 @@
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">8</int>
-						<reference key="object" ref="1044867280"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
 						<reference key="object" ref="31270546"/>
 						<reference key="parent" ref="191373211"/>
@@ -264,6 +273,11 @@
 					<object class="IBObjectRecord">
 						<int key="objectID">17</int>
 						<reference key="object" ref="464791731"/>
+						<reference key="parent" ref="191373211"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">20</int>
+						<reference key="object" ref="1054100093"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>
@@ -281,18 +295,17 @@
 					<string>15.IBViewBoundsToFrameTransform</string>
 					<string>17.IBPluginDependency</string>
 					<string>17.IBViewBoundsToFrameTransform</string>
+					<string>20.IBPluginDependency</string>
 					<string>4.IBPluginDependency</string>
 					<string>4.IBViewBoundsToFrameTransform</string>
 					<string>5.IBPluginDependency</string>
 					<string>5.IBViewBoundsToFrameTransform</string>
-					<string>8.IBPluginDependency</string>
-					<string>8.IBViewBoundsToFrameTransform</string>
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>GameViewController</string>
 					<string>UIResponder</string>
-					<string>{{1800, 62}, {320, 460}}</string>
+					<string>{{1704, 0}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -304,16 +317,13 @@
 						<bytes key="NSTransformStruct">P4AAAL+AAABChAAAw4yAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
 						<bytes key="NSTransformStruct">P4AAAL+AAABCAAAAw3YAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
 						<bytes key="NSTransformStruct">P4AAAL+AAABC1AAAw5GAAA</bytes>
-					</object>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABChgAAwpQAAA</bytes>
 					</object>
 				</object>
 			</object>
@@ -333,7 +343,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">19</int>
+			<int key="maxID">21</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -358,7 +368,7 @@
 							<string>UILabel</string>
 							<string>id</string>
 							<string>UIImageView</string>
-							<string>UIImageView</string>
+							<string>UILabel</string>
 							<string>UIImageView</string>
 							<string>UIImageView</string>
 							<string>UIImageView</string>
@@ -392,7 +402,7 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">instructions</string>
-								<string key="candidateClassName">UIImageView</string>
+								<string key="candidateClassName">UILabel</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">ready</string>
@@ -623,14 +633,12 @@
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>ready.png</string>
 				<string>tap_to_win.png</string>
-				<string>taptaptap.png</string>
 				<string>total_taps.png</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>{108, 27}</string>
 				<string>{256, 36}</string>
-				<string>{186, 27}</string>
 				<string>{119, 17}</string>
 			</object>
 		</object>

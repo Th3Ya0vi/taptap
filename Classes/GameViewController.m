@@ -110,7 +110,15 @@
 			tap = [[[UIImageView alloc] initWithImage: image
 									 highlightedImage: highlighted] autorelease];
 			CGRect newFrame = tap.frame;
-			newFrame.origin = CGPointMake([touch locationInView: touch.view].x - 70, [touch locationInView: touch.view].y - 40);
+			int xOffset = -70;
+			int yOffset = -40;
+			if ([touch locationInView: touch.view].x < 85) {
+				xOffset = 20;
+			}
+			if ([touch locationInView: touch.view].y < 50) {
+				yOffset = 25;
+			}
+			newFrame.origin = CGPointMake([touch locationInView: touch.view].x + xOffset, [touch locationInView: touch.view].y + yOffset);
 			tap.frame = newFrame;
 			[self.view addSubview: tap];
 
@@ -119,7 +127,6 @@
 				   withObject: [taps lastObject] 
 				   afterDelay: 0.1];
 		}
-
 	}
 }
 
@@ -141,10 +148,6 @@
 	target.hidden = !target.hidden;
 }
 
-- (void) shiftImageLeft: (UIImageView *) target {
-	target.center = CGPointMake(target.center.x - 20, target.center.y);
-}
-
 - (void) startupAnimations {
 	
 	for (int i = 1; i <= 7; i++) {
@@ -158,14 +161,10 @@
 			   afterDelay: 0.5*7];
 	
 	for (int i = 1; i <= 6; i++) {
-		[self performSelector: @selector(toggleDisplay:) 
+		[self performSelector: @selector(toggleLabelDisplay:) 
 		   withObject: self.instructions 
 		   afterDelay: 3.5 + 0.5*i];
 	}
-	
-	[self performSelector: @selector(shiftImageLeft:)
-			   withObject: self.instructions
-			   afterDelay: 7];
 	
 	[self performSelector: @selector(toggleLabelDisplay:)
 			   withObject: self.counterLabel
@@ -215,15 +214,12 @@
 		}
 	}
 	
-	if (timeLimit - intervalsElapsed/30 <= 5) {
+	if (timeLimit - intervalsElapsed/30 < 5) {
 		if (intervalsElapsed%10 == 0) {
-			[self toggleDisplay: instructions];
+			[self toggleLabelDisplay: instructions];
 		}
 		if ((timeLimit*30 - intervalsElapsed)%10 == 0) {
-			NSString *imageName = [NSString stringWithFormat:@"countdown_%d.png", timeLimit - intervalsElapsed/30];
-			instructions.image = [UIImage imageNamed: imageName];
-			[instructions sizeToFit];
-			instructions.contentMode = UIViewContentModeScaleAspectFit;
+			instructions.text = [NSString stringWithFormat:@"%d SECONDS LEFT", timeLimit+1 - intervalsElapsed/30];
 		}
 	}
 	
@@ -236,6 +232,7 @@
 	
 	if (self.flashLayer.alpha >= 1) {
 		[localTimer invalidate];
+		localTimer = nil;
 		
 		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 		BOOL post_online = (BOOL) [defaults objectForKey: kScoresUploadKey];
@@ -288,7 +285,7 @@
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	BOOL randomize = (BOOL) [defaults objectForKey: kRandomizeKey];
 	if (randomize) {
-		timeLimit = arc4random() % 8 + 8;	// timeLimit is anywhere from 8 to 16 seconds
+		timeLimit = arc4random() % 10 + 10;	// timeLimit is anywhere from 10 to 20 seconds
 	} else {
 		timeLimit = 12;
 	}

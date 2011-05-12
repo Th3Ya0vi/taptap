@@ -18,7 +18,6 @@
 		DA21999913725BA1000A250A /* RootViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA21999813725BA1000A250A /* RootViewController_iPad.xib */; };
 		DA2199C01372647E000A250A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2199BF1372647E000A250A /* Default.png */; };
 		DA2199CA13726640000A250A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2199C913726640000A250A /* Default@2x.png */; };
-		DA2199D0137267B7000A250A /* Default-LandscapeLeft~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2199CF137267B7000A250A /* Default-LandscapeLeft~ipad.png */; };
 		DA2199F013726D11000A250A /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2199EF13726D11000A250A /* Default~ipad.png */; };
 		DA219A0213726F46000A250A /* Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DA219A0013726F46000A250A /* Icon~ipad.png */; };
 		DA219A0313726F46000A250A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA219A0113726F46000A250A /* Icon.png */; };
@@ -34,33 +33,26 @@
 		DA219B421372A3EA000A250A /* GameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA219B401372A3EA000A250A /* GameView.xib */; };
 		DA219B501372A690000A250A /* tap_to_win.png in Resources */ = {isa = PBXBuildFile; fileRef = DA219B4C1372A690000A250A /* tap_to_win.png */; };
 		DA219B511372A690000A250A /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = DA219B4D1372A690000A250A /* tap.png */; };
-		DA219B521372A690000A250A /* taptaptap.png in Resources */ = {isa = PBXBuildFile; fileRef = DA219B4E1372A690000A250A /* taptaptap.png */; };
 		DA219B531372A690000A250A /* ready.png in Resources */ = {isa = PBXBuildFile; fileRef = DA219B4F1372A690000A250A /* ready.png */; };
 		DA32C1F31374C73200255D64 /* tap_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C1F21374C73200255D64 /* tap_highlighted.png */; };
-		DA32C3591374DDF500255D64 /* seconds_to_go.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C3581374DDF500255D64 /* seconds_to_go.png */; };
-		DA32C3A61374E5A600255D64 /* countdown_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C3A31374E5A600255D64 /* countdown_1.png */; };
-		DA32C3A71374E5A600255D64 /* countdown_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C3A41374E5A600255D64 /* countdown_2.png */; };
-		DA32C3A81374E5A600255D64 /* countdown_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C3A51374E5A600255D64 /* countdown_3.png */; };
-		DA32C3EA1374EB6400255D64 /* countdown_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C3E81374EB6400255D64 /* countdown_4.png */; };
-		DA32C3EB1374EB6400255D64 /* countdown_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C3E91374EB6400255D64 /* countdown_5.png */; };
-		DA32C3FB1374ED0200255D64 /* countdown_0.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C3FA1374ED0200255D64 /* countdown_0.png */; };
 		DA32C45A1374F7DF00255D64 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32C4581374F7DF00255D64 /* ResultViewController.m */; };
 		DA32C45B1374F7DF00255D64 /* ResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA32C4591374F7DF00255D64 /* ResultView.xib */; };
 		DA32C4961375062900255D64 /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C4951375062900255D64 /* play_again.png */; };
-		DA32C4DA13750DCC00255D64 /* taps_per_second.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C4D913750DCC00255D64 /* taps_per_second.png */; };
 		DA32C51913751CC400255D64 /* total_taps.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C51813751CC400255D64 /* total_taps.png */; };
-		DA32C52E1375203D00255D64 /* results.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C5271375203D00255D64 /* results.png */; };
-		DA32C52F1375203D00255D64 /* hot_tapas.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C5281375203D00255D64 /* hot_tapas.png */; };
-		DA32C5301375203D00255D64 /* tap_water.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C5291375203D00255D64 /* tap_water.png */; };
-		DA32C5311375203D00255D64 /* time_elapsed.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C52A1375203D00255D64 /* time_elapsed.png */; };
-		DA32C5321375203D00255D64 /* rank.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C52B1375203D00255D64 /* rank.png */; };
-		DA32C5331375203D00255D64 /* total_loser.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C52C1375203D00255D64 /* total_loser.png */; };
-		DA32C5341375203D00255D64 /* cold_tapioca.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C52D1375203D00255D64 /* cold_tapioca.png */; };
 		DA5AB8971371711100147B9E /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5AB8961371711100147B9E /* MainWindow_iPad.xib */; };
 		DA5AB8C3137171C100147B9E /* TapTapAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AB8C2137171C100147B9E /* TapTapAppDelegate_iPad.m */; };
 		DA5AB8C91371726B00147B9E /* RootViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AB8C81371726B00147B9E /* RootViewController_iPad.m */; };
+		DA70C1DF1377562800CC2EDF /* logo_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DA70C1DE1377562800CC2EDF /* logo_ipad.png */; };
 		DAECC3DD13762DDE001280F6 /* Silom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAECC3DC13762DDE001280F6 /* Silom.ttf */; };
 		DAECC4E1137690D5001280F6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAECC4E0137690D5001280F6 /* Settings.bundle */; };
+		DAECC5FE1376B729001280F6 /* ResultViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DAECC5FD1376B729001280F6 /* ResultViewController_iPad.m */; };
+		DAECC6021376B7A7001280F6 /* GameViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DAECC6011376B7A7001280F6 /* GameViewController_iPad.m */; };
+		DAECC6D61376B870001280F6 /* HighScoresViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DAECC6D51376B870001280F6 /* HighScoresViewController_iPad.m */; };
+		DAECC6DA1376B90D001280F6 /* MainMenuViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DAECC6D91376B90D001280F6 /* MainMenuViewController_iPad.m */; };
+		DAECC6DC1376B987001280F6 /* MainMenuView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAECC6DB1376B987001280F6 /* MainMenuView_iPad.xib */; };
+		DAECC6E11376B9B1001280F6 /* ResultView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAECC6E01376B9B1001280F6 /* ResultView_iPad.xib */; };
+		DAECC6E51376B9D2001280F6 /* GameView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAECC6E41376B9D2001280F6 /* GameView_iPad.xib */; };
+		DAECC6E71376B9E2001280F6 /* HighScoresView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAECC6E61376B9E2001280F6 /* HighScoresView_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,8 +72,6 @@
 		DA21999813725BA1000A250A /* RootViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController_iPad.xib; sourceTree = "<group>"; };
 		DA2199BF1372647E000A250A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DA2199C913726640000A250A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		DA2199CF137267B7000A250A /* Default-LandscapeLeft~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-LandscapeLeft~ipad.png"; sourceTree = "<group>"; };
-		DA2199E713726C77000A250A /* Default-LandscapeRight~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-LandscapeRight~ipad.png"; sourceTree = "<group>"; };
 		DA2199EF13726D11000A250A /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
 		DA219A0013726F46000A250A /* Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~ipad.png"; sourceTree = "<group>"; };
 		DA219A0113726F46000A250A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -100,36 +90,33 @@
 		DA219B401372A3EA000A250A /* GameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GameView.xib; path = Classes/GameView.xib; sourceTree = "<group>"; };
 		DA219B4C1372A690000A250A /* tap_to_win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap_to_win.png; sourceTree = "<group>"; };
 		DA219B4D1372A690000A250A /* tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap.png; sourceTree = "<group>"; };
-		DA219B4E1372A690000A250A /* taptaptap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taptaptap.png; sourceTree = "<group>"; };
 		DA219B4F1372A690000A250A /* ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready.png; sourceTree = "<group>"; };
 		DA32C1F21374C73200255D64 /* tap_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap_highlighted.png; sourceTree = "<group>"; };
-		DA32C3581374DDF500255D64 /* seconds_to_go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seconds_to_go.png; sourceTree = "<group>"; };
-		DA32C3A31374E5A600255D64 /* countdown_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countdown_1.png; sourceTree = "<group>"; };
-		DA32C3A41374E5A600255D64 /* countdown_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countdown_2.png; sourceTree = "<group>"; };
-		DA32C3A51374E5A600255D64 /* countdown_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countdown_3.png; sourceTree = "<group>"; };
-		DA32C3E81374EB6400255D64 /* countdown_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countdown_4.png; sourceTree = "<group>"; };
-		DA32C3E91374EB6400255D64 /* countdown_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countdown_5.png; sourceTree = "<group>"; };
-		DA32C3FA1374ED0200255D64 /* countdown_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countdown_0.png; sourceTree = "<group>"; };
 		DA32C4571374F7DF00255D64 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
 		DA32C4581374F7DF00255D64 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 		DA32C4591374F7DF00255D64 /* ResultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ResultView.xib; path = Classes/ResultView.xib; sourceTree = "<group>"; };
 		DA32C4951375062900255D64 /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_again.png; sourceTree = "<group>"; };
-		DA32C4D913750DCC00255D64 /* taps_per_second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taps_per_second.png; sourceTree = "<group>"; };
 		DA32C51813751CC400255D64 /* total_taps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = total_taps.png; sourceTree = "<group>"; };
-		DA32C5271375203D00255D64 /* results.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = results.png; sourceTree = "<group>"; };
-		DA32C5281375203D00255D64 /* hot_tapas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hot_tapas.png; sourceTree = "<group>"; };
-		DA32C5291375203D00255D64 /* tap_water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap_water.png; sourceTree = "<group>"; };
-		DA32C52A1375203D00255D64 /* time_elapsed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_elapsed.png; sourceTree = "<group>"; };
-		DA32C52B1375203D00255D64 /* rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rank.png; sourceTree = "<group>"; };
-		DA32C52C1375203D00255D64 /* total_loser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = total_loser.png; sourceTree = "<group>"; };
-		DA32C52D1375203D00255D64 /* cold_tapioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cold_tapioca.png; sourceTree = "<group>"; };
 		DA5AB8961371711100147B9E /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow_iPad.xib; path = "Resources-iPad/MainWindow_iPad.xib"; sourceTree = "<group>"; };
 		DA5AB8C1137171C100147B9E /* TapTapAppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapTapAppDelegate_iPad.h; path = Classes/TapTapAppDelegate_iPad.h; sourceTree = "<group>"; };
 		DA5AB8C2137171C100147B9E /* TapTapAppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TapTapAppDelegate_iPad.m; path = Classes/TapTapAppDelegate_iPad.m; sourceTree = "<group>"; };
 		DA5AB8C71371726B00147B9E /* RootViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController_iPad.h; sourceTree = "<group>"; };
 		DA5AB8C81371726B00147B9E /* RootViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController_iPad.m; sourceTree = "<group>"; };
+		DA70C1DE1377562800CC2EDF /* logo_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_ipad.png; sourceTree = "<group>"; };
 		DAECC3DC13762DDE001280F6 /* Silom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silom.ttf; sourceTree = "<group>"; };
 		DAECC4E0137690D5001280F6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		DAECC5FC1376B729001280F6 /* ResultViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController_iPad.h; sourceTree = "<group>"; };
+		DAECC5FD1376B729001280F6 /* ResultViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController_iPad.m; sourceTree = "<group>"; };
+		DAECC6001376B7A7001280F6 /* GameViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController_iPad.h; sourceTree = "<group>"; };
+		DAECC6011376B7A7001280F6 /* GameViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController_iPad.m; sourceTree = "<group>"; };
+		DAECC6D41376B870001280F6 /* HighScoresViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoresViewController_iPad.h; sourceTree = "<group>"; };
+		DAECC6D51376B870001280F6 /* HighScoresViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoresViewController_iPad.m; sourceTree = "<group>"; };
+		DAECC6D81376B90D001280F6 /* MainMenuViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController_iPad.h; sourceTree = "<group>"; };
+		DAECC6D91376B90D001280F6 /* MainMenuViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController_iPad.m; sourceTree = "<group>"; };
+		DAECC6DB1376B987001280F6 /* MainMenuView_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenuView_iPad.xib; sourceTree = "<group>"; };
+		DAECC6E01376B9B1001280F6 /* ResultView_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultView_iPad.xib; sourceTree = "<group>"; };
+		DAECC6E41376B9D2001280F6 /* GameView_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameView_iPad.xib; sourceTree = "<group>"; };
+		DAECC6E61376B9E2001280F6 /* HighScoresView_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HighScoresView_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,14 +136,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DAECC5E01376B064001280F6 /* Delegate */,
+				DAECC5DF1376B05F001280F6 /* Root */,
 				DA32C4561374F7A600255D64 /* Result */,
 				DA32C1501374B16C00255D64 /* Game */,
 				DA32C14F1374B16000255D64 /* High Scores */,
 				DA32C14E1374B14F00255D64 /* Main Menu */,
-				1D3623240D0F684500981E51 /* TapTapAppDelegate.h */,
-				1D3623250D0F684500981E51 /* TapTapAppDelegate.m */,
-				DA219A7713729655000A250A /* RootViewController.h */,
-				DA219A7813729655000A250A /* RootViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -218,7 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				DA2199B813726469000A250A /* Resources */,
-				DAECC4E0137690D5001280F6 /* Settings.bundle */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -227,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107310486CEB800E47090 /* TapTap-Info.plist */,
+				DAECC4E0137690D5001280F6 /* Settings.bundle */,
 				DAECC3DE13762DEA001280F6 /* Fonts */,
 				DA219A16137283AE000A250A /* Images */,
 				DA219A0413726F49000A250A /* Icons */,
@@ -241,8 +226,6 @@
 				DA2199BF1372647E000A250A /* Default.png */,
 				DA2199C913726640000A250A /* Default@2x.png */,
 				DA2199EF13726D11000A250A /* Default~ipad.png */,
-				DA2199E713726C77000A250A /* Default-LandscapeRight~ipad.png */,
-				DA2199CF137267B7000A250A /* Default-LandscapeLeft~ipad.png */,
 			);
 			name = "Launch Images";
 			sourceTree = "<group>";
@@ -259,21 +242,15 @@
 		DA219A16137283AE000A250A /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				DA32C5351375204400255D64 /* Ranks */,
-				DA32C3EC1374EB6900255D64 /* Countdown */,
 				DA219A14137283AB000A250A /* logo.png */,
-				DA32C3581374DDF500255D64 /* seconds_to_go.png */,
+				DA70C1DE1377562800CC2EDF /* logo_ipad.png */,
 				DA219A2313728692000A250A /* start.png */,
 				DA32C1F21374C73200255D64 /* tap_highlighted.png */,
-				DA32C5271375203D00255D64 /* results.png */,
-				DA32C52A1375203D00255D64 /* time_elapsed.png */,
 				DA219A4813728FC9000A250A /* title_screen.png */,
 				DA219A251372879B000A250A /* high_scores.png */,
-				DA32C4D913750DCC00255D64 /* taps_per_second.png */,
 				DA219B4C1372A690000A250A /* tap_to_win.png */,
 				DA32C51813751CC400255D64 /* total_taps.png */,
 				DA219B4D1372A690000A250A /* tap.png */,
-				DA219B4E1372A690000A250A /* taptaptap.png */,
 				DA219B4F1372A690000A250A /* ready.png */,
 				DA32C4951375062900255D64 /* play_again.png */,
 			);
@@ -307,19 +284,6 @@
 			name = Game;
 			sourceTree = "<group>";
 		};
-		DA32C3EC1374EB6900255D64 /* Countdown */ = {
-			isa = PBXGroup;
-			children = (
-				DA32C3FA1374ED0200255D64 /* countdown_0.png */,
-				DA32C3A31374E5A600255D64 /* countdown_1.png */,
-				DA32C3A41374E5A600255D64 /* countdown_2.png */,
-				DA32C3A51374E5A600255D64 /* countdown_3.png */,
-				DA32C3E81374EB6400255D64 /* countdown_4.png */,
-				DA32C3E91374EB6400255D64 /* countdown_5.png */,
-			);
-			name = Countdown;
-			sourceTree = "<group>";
-		};
 		DA32C4561374F7A600255D64 /* Result */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,23 +293,15 @@
 			name = Result;
 			sourceTree = "<group>";
 		};
-		DA32C5351375204400255D64 /* Ranks */ = {
-			isa = PBXGroup;
-			children = (
-				DA32C52B1375203D00255D64 /* rank.png */,
-				DA32C52C1375203D00255D64 /* total_loser.png */,
-				DA32C52D1375203D00255D64 /* cold_tapioca.png */,
-				DA32C5291375203D00255D64 /* tap_water.png */,
-				DA32C5281375203D00255D64 /* hot_tapas.png */,
-			);
-			name = Ranks;
-			sourceTree = "<group>";
-		};
 		DA5AB8951371711000147B9E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DA5AB8961371711100147B9E /* MainWindow_iPad.xib */,
+				DAECC6DB1376B987001280F6 /* MainMenuView_iPad.xib */,
+				DAECC6E41376B9D2001280F6 /* GameView_iPad.xib */,
+				DAECC6E01376B9B1001280F6 /* ResultView_iPad.xib */,
+				DAECC6E61376B9E2001280F6 /* HighScoresView_iPad.xib */,
 				DA21999813725BA1000A250A /* RootViewController_iPad.xib */,
+				DA5AB8961371711100147B9E /* MainWindow_iPad.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -371,10 +327,12 @@
 		DA5AB8C6137171DA00147B9E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DA5AB8C1137171C100147B9E /* TapTapAppDelegate_iPad.h */,
-				DA5AB8C2137171C100147B9E /* TapTapAppDelegate_iPad.m */,
-				DA5AB8C71371726B00147B9E /* RootViewController_iPad.h */,
-				DA5AB8C81371726B00147B9E /* RootViewController_iPad.m */,
+				DAECC6D71376B8FA001280F6 /* Main Menu */,
+				DAECC6D31376B85E001280F6 /* High Scores */,
+				DAECC5FF1376B792001280F6 /* Game */,
+				DAECC5FB1376B704001280F6 /* Result */,
+				DAECC5F71376B5BA001280F6 /* Delegate */,
+				DAECC5F81376B5C8001280F6 /* Root */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -385,6 +343,78 @@
 				DAECC3DC13762DDE001280F6 /* Silom.ttf */,
 			);
 			name = Fonts;
+			sourceTree = "<group>";
+		};
+		DAECC5DF1376B05F001280F6 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DA219A7713729655000A250A /* RootViewController.h */,
+				DA219A7813729655000A250A /* RootViewController.m */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		DAECC5E01376B064001280F6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* TapTapAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TapTapAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		DAECC5F71376B5BA001280F6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				DA5AB8C1137171C100147B9E /* TapTapAppDelegate_iPad.h */,
+				DA5AB8C2137171C100147B9E /* TapTapAppDelegate_iPad.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		DAECC5F81376B5C8001280F6 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DA5AB8C71371726B00147B9E /* RootViewController_iPad.h */,
+				DA5AB8C81371726B00147B9E /* RootViewController_iPad.m */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		DAECC5FB1376B704001280F6 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				DAECC5FC1376B729001280F6 /* ResultViewController_iPad.h */,
+				DAECC5FD1376B729001280F6 /* ResultViewController_iPad.m */,
+			);
+			name = Result;
+			sourceTree = "<group>";
+		};
+		DAECC5FF1376B792001280F6 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				DAECC6001376B7A7001280F6 /* GameViewController_iPad.h */,
+				DAECC6011376B7A7001280F6 /* GameViewController_iPad.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		DAECC6D31376B85E001280F6 /* High Scores */ = {
+			isa = PBXGroup;
+			children = (
+				DAECC6D41376B870001280F6 /* HighScoresViewController_iPad.h */,
+				DAECC6D51376B870001280F6 /* HighScoresViewController_iPad.m */,
+			);
+			name = "High Scores";
+			sourceTree = "<group>";
+		};
+		DAECC6D71376B8FA001280F6 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				DAECC6D81376B90D001280F6 /* MainMenuViewController_iPad.h */,
+				DAECC6D91376B90D001280F6 /* MainMenuViewController_iPad.m */,
+			);
+			name = "Main Menu";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,7 +472,6 @@
 				DA21999913725BA1000A250A /* RootViewController_iPad.xib in Resources */,
 				DA2199C01372647E000A250A /* Default.png in Resources */,
 				DA2199CA13726640000A250A /* Default@2x.png in Resources */,
-				DA2199D0137267B7000A250A /* Default-LandscapeLeft~ipad.png in Resources */,
 				DA2199F013726D11000A250A /* Default~ipad.png in Resources */,
 				DA219A0213726F46000A250A /* Icon~ipad.png in Resources */,
 				DA219A0313726F46000A250A /* Icon.png in Resources */,
@@ -455,29 +484,18 @@
 				DA219B421372A3EA000A250A /* GameView.xib in Resources */,
 				DA219B501372A690000A250A /* tap_to_win.png in Resources */,
 				DA219B511372A690000A250A /* tap.png in Resources */,
-				DA219B521372A690000A250A /* taptaptap.png in Resources */,
 				DA219B531372A690000A250A /* ready.png in Resources */,
 				DA32C1F31374C73200255D64 /* tap_highlighted.png in Resources */,
-				DA32C3591374DDF500255D64 /* seconds_to_go.png in Resources */,
-				DA32C3A61374E5A600255D64 /* countdown_1.png in Resources */,
-				DA32C3A71374E5A600255D64 /* countdown_2.png in Resources */,
-				DA32C3A81374E5A600255D64 /* countdown_3.png in Resources */,
-				DA32C3EA1374EB6400255D64 /* countdown_4.png in Resources */,
-				DA32C3EB1374EB6400255D64 /* countdown_5.png in Resources */,
-				DA32C3FB1374ED0200255D64 /* countdown_0.png in Resources */,
 				DA32C45B1374F7DF00255D64 /* ResultView.xib in Resources */,
 				DA32C4961375062900255D64 /* play_again.png in Resources */,
-				DA32C4DA13750DCC00255D64 /* taps_per_second.png in Resources */,
 				DA32C51913751CC400255D64 /* total_taps.png in Resources */,
-				DA32C52E1375203D00255D64 /* results.png in Resources */,
-				DA32C52F1375203D00255D64 /* hot_tapas.png in Resources */,
-				DA32C5301375203D00255D64 /* tap_water.png in Resources */,
-				DA32C5311375203D00255D64 /* time_elapsed.png in Resources */,
-				DA32C5321375203D00255D64 /* rank.png in Resources */,
-				DA32C5331375203D00255D64 /* total_loser.png in Resources */,
-				DA32C5341375203D00255D64 /* cold_tapioca.png in Resources */,
 				DAECC3DD13762DDE001280F6 /* Silom.ttf in Resources */,
 				DAECC4E1137690D5001280F6 /* Settings.bundle in Resources */,
+				DAECC6DC1376B987001280F6 /* MainMenuView_iPad.xib in Resources */,
+				DAECC6E11376B9B1001280F6 /* ResultView_iPad.xib in Resources */,
+				DAECC6E51376B9D2001280F6 /* GameView_iPad.xib in Resources */,
+				DAECC6E71376B9E2001280F6 /* HighScoresView_iPad.xib in Resources */,
+				DA70C1DF1377562800CC2EDF /* logo_ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +515,10 @@
 				DA219A7A13729655000A250A /* RootViewController.m in Sources */,
 				DA219B411372A3EA000A250A /* GameViewController.m in Sources */,
 				DA32C45A1374F7DF00255D64 /* ResultViewController.m in Sources */,
+				DAECC5FE1376B729001280F6 /* ResultViewController_iPad.m in Sources */,
+				DAECC6021376B7A7001280F6 /* GameViewController_iPad.m in Sources */,
+				DAECC6D61376B870001280F6 /* HighScoresViewController_iPad.m in Sources */,
+				DAECC6DA1376B90D001280F6 /* MainMenuViewController_iPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

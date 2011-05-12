@@ -156,7 +156,6 @@ foundCharacters: (NSString *) string {
   qualifiedName: (NSString *) qName {
 	if ([elementName isEqualToString: @"django-objects"]) {
 		// finished parsing, have reached final element tag
-		NSLog(@"Finished parsing.");
 		[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible: NO];
 		return;
 	}
@@ -164,7 +163,6 @@ foundCharacters: (NSString *) string {
 	if ([elementName isEqualToString: @"object"]) {
 		// Log the results
 		[highScores addObject: newScore];
-		NSLog(@"%@", highScores);
 	}
 	
 	if ([elementName isEqualToString: @"field"]) {
@@ -218,6 +216,13 @@ foundCharacters: (NSString *) string {
 
 	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible: NO];
 	NSLog(@"Error connecting - %@", [error localizedFailureReason]);
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @"Not Connected to the Internet" 
+													message: @"Leaderboard data could not be downloaded." 
+												   delegate: self 
+										  cancelButtonTitle: @"OK" 
+										  otherButtonTitles: nil];
+	[alert show];
+	[alert release];
 	[connection release];
 	[responseData release];
 }

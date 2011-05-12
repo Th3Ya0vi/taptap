@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController_iPad : UIViewController {
+@class MainMenuViewController_iPad;
 
+@interface RootViewController_iPad : UIViewController {
+	MainMenuViewController_iPad *mainMenuViewController;
 }
+
+@property (nonatomic, retain) MainMenuViewController_iPad *mainMenuViewController;
 
 @end
 

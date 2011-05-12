@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol GameViewControllerDelegate;
-
 @class ResultViewController;
 
 @interface GameViewController : UIViewController {
@@ -18,7 +16,7 @@
 	
 	UIImageView *tapToWin;
 	UIImageView *ready;
-	UIImageView *instructions;
+	UILabel *instructions;
 	UIImageView *totalTaps;
 	UIImageView *flashLayer;
 	
@@ -38,7 +36,7 @@
 
 @property (nonatomic, retain) IBOutlet UIImageView *tapToWin;
 @property (nonatomic, retain) IBOutlet UIImageView *ready;
-@property (nonatomic, retain) IBOutlet UIImageView *instructions;
+@property (nonatomic, retain) IBOutlet UILabel *instructions;
 @property (nonatomic, retain) IBOutlet UIImageView *totalTaps;
 @property (nonatomic, retain) IBOutlet UIImageView *flashLayer;
 @property (nonatomic, retain) IBOutlet UILabel *counterLabel;

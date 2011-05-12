@@ -10,13 +10,28 @@
 
 @class RootViewController_iPad;
 
-@interface TapTapAppDelegate_iPad : NSObject <UIApplicationDelegate> {
+@interface TapTapAppDelegate_iPad : NSObject <UIApplicationDelegate, NSXMLParserDelegate> {
     UIWindow *window;
     RootViewController_iPad *viewController;
+	
+	// XML parsing
+	NSMutableData *responseData;
+	NSXMLParser *highScoresParser;
+	NSMutableArray *highScores;
+	NSMutableDictionary *newScore;
+	NSString *currentKey;
+	NSMutableString *currentStringValue;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet RootViewController_iPad *viewController;
+
+// XML parsing
+@property (nonatomic, retain) NSMutableArray *highScores;
+
+- (void) getHighScores;
+- (void) getHighScoresFromWebService: (NSString *) urlString;
+- (void) parseHighScores: (NSData *) highScoresXMLData;
 
 @end
 

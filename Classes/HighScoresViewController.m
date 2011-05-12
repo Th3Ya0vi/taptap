@@ -64,6 +64,7 @@
 */
 
 - (void) viewWillAppear:(BOOL)animated {
+	
 	self.tapTapAppDelegate = (TapTapAppDelegate *) [[UIApplication sharedApplication] delegate];
 	[self.tapTapAppDelegate getHighScores];
 	
@@ -75,7 +76,6 @@
 	int rank = 0;
 	for (id highScore in self.tapTapAppDelegate.highScores) {
 		rank++;
-		NSLog(@"%@, %d", highScore, rank);
 		switch (rank) {
 			case 1:
 				player_name_1.text = [highScore objectForKey: @"player_name"];
@@ -132,7 +132,7 @@
 	
 	for (UIView *v in self.view.subviews) {
 		if ([v isKindOfClass:[UILabel class]]) {
-			UILabel *label = (UILabel*)v;
+			UILabel *label = (UILabel*) v;
 			[label setFont:[UIFont fontWithName:@"Silom" size:label.font.pointSize]];
 		}
 	}

@@ -72,15 +72,14 @@
 	timeElapsedLabel.text = [NSString stringWithFormat: @"0:%02d", seconds];
 	
 	if (tps > 15) {
-		rank.image = [UIImage imageNamed: @"hot_tapas.png"];
+		rank.text = @"HOT TAPAS";
 	} else if (tps > 10) {
-		rank.image = [UIImage imageNamed: @"tap_water.png"];
+		rank.text = @"TAP WATER";
 	} else if (tps > 0) {
-		rank.image = [UIImage imageNamed: @"cold_tapioca.png"];
+		rank.text = @"COLD TAPIOCA";
 	} else {
-		rank.image = [UIImage imageNamed: @"total_loser.png"];
+		rank.text = @"TOTAL LOSER";
 	}
-	[rank sizeToFit];
 	
     [super viewDidLoad];
 }
