@@ -43,6 +43,11 @@
 		DA5AB8C3137171C100147B9E /* TapTapAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AB8C2137171C100147B9E /* TapTapAppDelegate_iPad.m */; };
 		DA5AB8C91371726B00147B9E /* RootViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AB8C81371726B00147B9E /* RootViewController_iPad.m */; };
 		DA70C1DF1377562800CC2EDF /* logo_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DA70C1DE1377562800CC2EDF /* logo_ipad.png */; };
+		DAB4EDB9137C15BD005DC2C9 /* SettingsRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4EDB7137C15BD005DC2C9 /* SettingsRootController.m */; };
+		DAB4EDBA137C15BD005DC2C9 /* SettingsRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB4EDB8137C15BD005DC2C9 /* SettingsRootView.xib */; };
+		DAB4EDEA137C1DEF005DC2C9 /* twitter_button.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB4EDE9137C1DEF005DC2C9 /* twitter_button.png */; };
+		DAB4EDEE137C2182005DC2C9 /* facebook_button.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB4EDED137C2182005DC2C9 /* facebook_button.png */; };
+		DAB4EDF0137C22E3005DC2C9 /* openfeint_button.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB4EDEF137C22E3005DC2C9 /* openfeint_button.png */; };
 		DAECC3DD13762DDE001280F6 /* Silom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAECC3DC13762DDE001280F6 /* Silom.ttf */; };
 		DAECC4E1137690D5001280F6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAECC4E0137690D5001280F6 /* Settings.bundle */; };
 		DAECC5FE1376B729001280F6 /* ResultViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DAECC5FD1376B729001280F6 /* ResultViewController_iPad.m */; };
@@ -103,6 +108,12 @@
 		DA5AB8C71371726B00147B9E /* RootViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController_iPad.h; sourceTree = "<group>"; };
 		DA5AB8C81371726B00147B9E /* RootViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController_iPad.m; sourceTree = "<group>"; };
 		DA70C1DE1377562800CC2EDF /* logo_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_ipad.png; sourceTree = "<group>"; };
+		DAB4EDB6137C15BD005DC2C9 /* SettingsRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsRootController.h; sourceTree = "<group>"; };
+		DAB4EDB7137C15BD005DC2C9 /* SettingsRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsRootController.m; sourceTree = "<group>"; };
+		DAB4EDB8137C15BD005DC2C9 /* SettingsRootView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsRootView.xib; path = Classes/SettingsRootView.xib; sourceTree = "<group>"; };
+		DAB4EDE9137C1DEF005DC2C9 /* twitter_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_button.png; sourceTree = "<group>"; };
+		DAB4EDED137C2182005DC2C9 /* facebook_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_button.png; sourceTree = "<group>"; };
+		DAB4EDEF137C22E3005DC2C9 /* openfeint_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openfeint_button.png; sourceTree = "<group>"; };
 		DAECC3DC13762DDE001280F6 /* Silom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silom.ttf; sourceTree = "<group>"; };
 		DAECC4E0137690D5001280F6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		DAECC5FC1376B729001280F6 /* ResultViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController_iPad.h; sourceTree = "<group>"; };
@@ -136,6 +147,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DAB4EDB5137C158D005DC2C9 /* Settings */,
 				DAECC5E01376B064001280F6 /* Delegate */,
 				DAECC5DF1376B05F001280F6 /* Root */,
 				DA32C4561374F7A600255D64 /* Result */,
@@ -179,6 +191,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DAB4EDB8137C15BD005DC2C9 /* SettingsRootView.xib */,
 				2899E5210DE3E06400AC0155 /* MainMenuView.xib */,
 				DA219B401372A3EA000A250A /* GameView.xib */,
 				DA32C4591374F7DF00255D64 /* ResultView.xib */,
@@ -242,6 +255,7 @@
 		DA219A16137283AE000A250A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DAB4EDF1137C22E7005DC2C9 /* Social */,
 				DA219A14137283AB000A250A /* logo.png */,
 				DA70C1DE1377562800CC2EDF /* logo_ipad.png */,
 				DA219A2313728692000A250A /* start.png */,
@@ -335,6 +349,25 @@
 				DAECC5F81376B5C8001280F6 /* Root */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		DAB4EDB5137C158D005DC2C9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DAB4EDB6137C15BD005DC2C9 /* SettingsRootController.h */,
+				DAB4EDB7137C15BD005DC2C9 /* SettingsRootController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		DAB4EDF1137C22E7005DC2C9 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				DAB4EDEF137C22E3005DC2C9 /* openfeint_button.png */,
+				DAB4EDE9137C1DEF005DC2C9 /* twitter_button.png */,
+				DAB4EDED137C2182005DC2C9 /* facebook_button.png */,
+			);
+			name = Social;
 			sourceTree = "<group>";
 		};
 		DAECC3DE13762DEA001280F6 /* Fonts */ = {
@@ -496,6 +529,10 @@
 				DAECC6E51376B9D2001280F6 /* GameView_iPad.xib in Resources */,
 				DAECC6E71376B9E2001280F6 /* HighScoresView_iPad.xib in Resources */,
 				DA70C1DF1377562800CC2EDF /* logo_ipad.png in Resources */,
+				DAB4EDBA137C15BD005DC2C9 /* SettingsRootView.xib in Resources */,
+				DAB4EDEA137C1DEF005DC2C9 /* twitter_button.png in Resources */,
+				DAB4EDEE137C2182005DC2C9 /* facebook_button.png in Resources */,
+				DAB4EDF0137C22E3005DC2C9 /* openfeint_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +556,7 @@
 				DAECC6021376B7A7001280F6 /* GameViewController_iPad.m in Sources */,
 				DAECC6D61376B870001280F6 /* HighScoresViewController_iPad.m in Sources */,
 				DAECC6DA1376B90D001280F6 /* MainMenuViewController_iPad.m in Sources */,
+				DAB4EDB9137C15BD005DC2C9 /* SettingsRootController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

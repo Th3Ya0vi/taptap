@@ -9,24 +9,21 @@
 #import "MainMenuViewController.h"
 #import "GameViewController.h"
 #import "HighScoresViewController.h"
+#import "SettingsRootController.h"
 
 @implementation MainMenuViewController
 
 @synthesize delegate;
 
-@synthesize startButton;
-@synthesize highScoresButton;
-
 @synthesize gameViewController;
 @synthesize highScoresViewController;
+@synthesize settingsRootController;
 
 #pragma mark -
-#pragma mark Custom Methods
-
-
+#pragma mark Button Navigation Methods
 
 - (IBAction) startButtonPressed {
-	NSLog(@"Start button pressed.");
+	
 	self.gameViewController = [[GameViewController alloc] initWithNibName: @"GameView" 
 																   bundle: nil];
 	
@@ -37,7 +34,6 @@
 }
 
 - (IBAction) highScoresButtonPressed {
-	NSLog(@"High scores button pressed.");
 	
 	self.highScoresViewController = [[HighScoresViewController alloc] initWithNibName: @"HighScoresView" 
 																			   bundle: nil];
@@ -47,6 +43,18 @@
 							animated: YES];
 }
 
+- (IBAction) settingsButtonPressed {
+	
+	self.settingsRootController = [[SettingsRootController alloc] initWithNibName: @"SettingsRootView" 
+																			   bundle: nil];
+	self.settingsRootController.delegate = self;
+	self.settingsRootController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController: self.settingsRootController 
+							animated: YES];
+}
+
+#pragma mark -
+#pragma mark Lifecycle
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -73,9 +81,11 @@
 	
 	for (UIView *v in self.view.subviews) {
 		if ([v isKindOfClass:[UILabel class]]) {
-		  UILabel *label = (UILabel*)v;
-
-		  [label setFont:[UIFont fontWithName:@"Silom" size:label.font.pointSize]];
+			UILabel *label = (UILabel*)v;
+			[label setFont:[UIFont fontWithName:@"Silom" size:label.font.pointSize]];
+		} else if ([v isKindOfClass: [UIButton class]]) {
+			UIButton *button = (UIButton *)v;
+			[button setFont: [UIFont fontWithName: @"Silom" size: button.font.pointSize]];
 		}
 	}
 }
@@ -101,21 +111,19 @@
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
 	self.delegate = nil;
-	self.startButton = nil;
-	self.highScoresButton = nil;
 	
 	self.highScoresViewController = nil;
 	self.gameViewController = nil;
+	self.settingsRootController = nil;
 }
 
 
 - (void)dealloc {
 	[delegate release];
-	[startButton release];
-	[highScoresButton release];
 	
 	[highScoresViewController release];
 	[gameViewController release];
+	[settingsRootController release];
     [super dealloc];
 }
 

@@ -45,7 +45,7 @@
 					<object class="IBUIButton" id="231467148">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{81, 402}, {158, 23}}</string>
+						<string key="NSFrame">{{30, 401}, {270, 24}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -53,25 +53,20 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Helvetica-Bold</string>
-							<double key="NSSize">15</double>
+							<double key="NSSize">20</double>
 							<int key="NSfFlags">16</int>
 						</object>
-						<object class="NSColor" key="IBUIHighlightedTitleColor" id="206772309">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MQA</bytes>
-						</object>
-						<object class="NSColor" key="IBUINormalTitleColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-						</object>
-						<object class="NSColor" key="IBUINormalTitleShadowColor">
+						<string key="IBUINormalTitle">*TITLE SCREEN</string>
+						<object class="NSColor" key="IBUIHighlightedTitleColor" id="957814817">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
-						<object class="NSCustomResource" key="IBUINormalImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">title_screen.png</string>
+						<reference key="IBUISelectedTitleColor" ref="957814817"/>
+						<object class="NSColor" key="IBUINormalTitleColor" id="206772309">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MQA</bytes>
 						</object>
+						<reference key="IBUINormalTitleShadowColor" ref="957814817"/>
 					</object>
 					<object class="IBUILabel" id="890637326">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -1233,7 +1228,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>HighScoresViewController</string>
 					<string>UIResponder</string>
-					<string>{{1823, -17}, {320, 480}}</string>
+					<string>{{1500, -142}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
@@ -1789,10 +1784,6 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<string key="IBDocument.LastKnownRelativeProjectPath">../TapTap.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">title_screen.png</string>
-			<string key="NS.object.0">{158, 23}</string>
-		</object>
 		<string key="IBCocoaTouchPluginVersion">132</string>
 	</data>
 </archive>

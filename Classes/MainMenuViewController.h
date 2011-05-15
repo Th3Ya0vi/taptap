@@ -10,28 +10,26 @@
 
 @class GameViewController;
 @class HighScoresViewController;
+@class SettingsRootController;
 
 
 @interface MainMenuViewController : UIViewController {
 	id delegate;
 	
-	UIButton *startButton;
-	UIButton *highScoresButton;
-	
 	GameViewController *gameViewController;
 	HighScoresViewController *highScoresViewController;
+	SettingsRootController *settingsRootController;
 }
 
 @property (nonatomic, assign) id delegate;
 
-@property (nonatomic, retain) IBOutlet UIButton *startButton;
-@property (nonatomic, retain) IBOutlet UIButton *highScoresButton;
-
 @property (nonatomic, retain) HighScoresViewController *highScoresViewController;
 @property (nonatomic, retain) GameViewController *gameViewController;
+@property (nonatomic, retain) SettingsRootController *settingsRootController;
 
 - (IBAction) startButtonPressed;
 - (IBAction) highScoresButtonPressed;
+- (IBAction) settingsButtonPressed;
 
 @end
 

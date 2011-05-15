@@ -61,9 +61,11 @@
 	
 	for (UIView *v in self.view.subviews) {
 		if ([v isKindOfClass:[UILabel class]]) {
-		  UILabel *label = (UILabel*)v;
-
-		  [label setFont:[UIFont fontWithName:@"Silom" size:label.font.pointSize]];
+			UILabel *label = (UILabel*)v;
+			[label setFont:[UIFont fontWithName:@"Silom" size:label.font.pointSize]];
+		} else if ([v isKindOfClass: [UIButton class]]) {
+			UIButton *button = (UIButton *)v;
+			[button setFont: [UIFont fontWithName: @"Silom" size: button.font.pointSize]];
 		}
 	}
 	
