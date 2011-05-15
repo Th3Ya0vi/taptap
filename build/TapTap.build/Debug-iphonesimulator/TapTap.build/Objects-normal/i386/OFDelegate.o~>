@@ -1,0 +1,6 @@
+In file included from /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm:9:
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h:12: error: 'OFDelegate' redeclared as different kind of symbol
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFDelegate.h:24: error: previous declaration of 'class OFDelegate'
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h:14: error: redefinition of 'struct OFDelegate'
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h:14: error: trying to finish struct, but kicked out due to previous parse errors
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm:14: confused by earlier errors, bailing out

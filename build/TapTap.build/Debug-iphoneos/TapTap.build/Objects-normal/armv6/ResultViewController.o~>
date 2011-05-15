@@ -1,0 +1,10 @@
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm: In function 'void -[ResultViewController postToOFLeaderboards](ResultViewController*, objc_selector*)':
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm:47: warning: 'OFHighScoreService' may not respond to '+setHighScore:forLeaderBoard:onSuccess:onFailure:'
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm:47: warning: (Messages without a matching method signature
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm:47: warning: will be assumed to return 'id' and accept
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm:47: warning: '...' as arguments.)
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm:47: warning: cannot pass objects of non-POD type 'class OFDelegate' through '...'; call will abort at runtime
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm:47: warning: cannot pass objects of non-POD type 'class OFDelegate' through '...'; call will abort at runtime
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm: In function 'void -[ResultViewController viewDidLoad](ResultViewController*, objc_selector*)':
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm:90: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)
+/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm:90: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)

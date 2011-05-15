@@ -34,5 +34,6 @@
 
 - (IBAction) submitOnlineButtonPressed;
 - (IBAction) randomizeTimeButtonPressed;
+- (IBAction) openFeintButtonPressed;
 
 @end

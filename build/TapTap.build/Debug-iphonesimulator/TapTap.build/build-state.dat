@@ -1,7 +1,7 @@
 TTapTap
 v7
 r0
-t327157377.751442
+t327165730.374559
 cCheck dependencies
 cProcessInfoPlistFile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/Info.plist TapTap-Info.plist
 cCompileXIB /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/MainWindow.xib
@@ -38,21 +38,25 @@ cCompileXIB /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/
 cCpResource build/Debug-iphonesimulator/TapTap.app/twitter_button.png twitter_button.png
 cCpResource build/Debug-iphonesimulator/TapTap.app/facebook_button.png facebook_button.png
 cCpResource build/Debug-iphonesimulator/TapTap.app/openfeint_button.png openfeint_button.png
-cProcessPCH /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch.gch TapTap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCpResource build/Debug-iphonesimulator/TapTap.app/OFResources_Universal.bundle OFResources_Universal.bundle
+cCpResource build/Debug-iphonesimulator/TapTap.app/openfeint_offline_config.xml openfeint_offline_config.xml
+cProcessPCH /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch.gch TapTap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-dsfzbfdfwsuujabvsbyymwxmlhwj/TapTap_Prefix.pch.gch TapTap_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/main.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/MainMenuViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate_iPad.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/RootViewController_iPad.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/RootViewController_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/RootViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/GameViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController_iPad.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/ResultViewController_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/GameViewController_iPad.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController_iPad.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/HighScoresViewController_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/MainMenuViewController_iPad.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/MainMenuViewController_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/SettingsRootController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/SettingsRootController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapOFDelegate.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapOFDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cLd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap normal i386
 cGenerateDSYMFile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app.dSYM /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap
 cTouch /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app
@@ -62,10 +66,35 @@ c000000004CC128950000000000000110
 t1287727253
 s272
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004CC122E10000000000075FE0
+t1287725793
+s483296
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004CC129090000000000151F20
+t1287727369
+s1384224
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC1224400000000001C3D40
+t1287725636
+s1850688
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c000000004CC12246000000000029B310
 t1287725638
 s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c000000004CC1226D000000000029D5D0
@@ -77,6 +106,36 @@ c000000004CC1225F0000000000001466
 t1287725663
 s5222
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c000000004CC65698000000000017E520
+t1288066712
+s1565984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC122D0000000000005BF20
+t1287725776
+s376608
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004CC121E20000000000088320
+t1287725538
+s557856
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC121F60000000000068970
+t1287725558
+s428400
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000004CC1281F0000000000000AA1
 t1287727135
@@ -86,6 +145,21 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2
 c000000004CC12883000000000074D7B0
 t1287727235
 s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/TargetConditionals.h
+c000000004CB3FA0800000000000031E9
+t1286863368
+s12777
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libsqlite3.0.dylib
+c000000004CC109D90000000000092C20
+t1287719385
+s601120
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libz.1.2.3.dylib
+c000000004CC109C300000000000123B0
+t1287719363
+s74672
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameView.xib
 c000000004DC699780000000000006F11
@@ -99,8 +173,8 @@ s1256
 i<UIKit/UIKit.h>
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m
-c000000004DC71D7A00000000000027D1
-t1304894842
+c000000004DCFEA3600000000000027D1
+t1305471542
 s10193
 i"GameViewController.h"
 i"ResultViewController.h"
@@ -149,6 +223,24 @@ i"GameViewController.h"
 i"HighScoresViewController.h"
 i"SettingsRootController.h"
 
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h
+c000000004DCFE14000000000000000F2
+t1305469248
+s242
+i"OpenFeint/OpenFeintDelegate.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.m
+c000000004DCFE0FD00000000000000C8
+t1305469181
+s200
+i"OFDelegate.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm
+c000000004DCFE11100000000000000C9
+t1305469201
+s201
+i"OFDelegate.h"
+
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultView.xib
 c000000004DCBEC5F000000000000AA1C
 t1305209951
@@ -167,6 +259,16 @@ s3727
 i"ResultViewController.h"
 i"MainMenuViewController.h"
 i"GameViewController.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm
+c000000004DCFEF9D000000000000112A
+t1305472925
+s4394
+i"ResultViewController.h"
+i"MainMenuViewController.h"
+i"GameViewController.h"
+i"OpenFeint/OFAchievement.h"
+i"OpenFeint/OFHighScoreService.h"
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.xib
 c000000004DC4C05F0000000000001877
@@ -193,17 +295,25 @@ t1304583926
 s14960
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.h
-c000000004DCFC95A00000000000003EF
-t1305463130
-s1007
+c000000004DCFE6FC0000000000000414
+t1305470716
+s1044
 i<UIKit/UIKit.h>
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m
-c000000004DCFCE31000000000000163F
-t1305464369
-s5695
+c000000004DCFE724000000000000166D
+t1305470756
+s5741
 i"SettingsRootController.h"
 i"MainMenuViewController.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm
+c000000004DCFE74E00000000000016A7
+t1305470798
+s5799
+i"SettingsRootController.h"
+i"MainMenuViewController.h"
+i"OpenFeint/OpenFeint.h"
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.xib
 c000000004DCBDE3D000000000000187D
@@ -211,22 +321,32 @@ t1305206333
 s6269
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootView.xib
-c000000004DCFCEFA0000000000009243
-t1305464570
-s37443
+c000000004DCFE9320000000000009F66
+t1305471282
+s40806
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.h
-c000000004DCFCD5B000000000000038F
-t1305464155
-s911
+c000000004DCFE37800000000000003D8
+t1305469816
+s984
 i<UIKit/UIKit.h>
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m
-c000000004DCFCCAC0000000000001E5D
-t1305463980
-s7773
+c000000004DCFDA250000000000001F3D
+t1305467429
+s7997
 i"TapTapAppDelegate.h"
 i"RootViewController.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.mm
+c000000004DCFE6990000000000002354
+t1305470617
+s9044
+i"TapTapAppDelegate.h"
+i"RootViewController.h"
+i"OpenFeint/OpenFeint.h"
+i"TapTapOFDelegate.h"
+i"OpenFeint/OFControllerLoader.h"
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.h
 c000000004DC67E8B00000000000003A3
@@ -240,6 +360,19 @@ t1304854738
 s7759
 i"TapTapAppDelegate_iPad.h"
 i"RootViewController_iPad.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapOFDelegate.h
+c000000004DCFE1D100000000000001CC
+t1305469393
+s460
+i"OpenFeint/OpenFeintDelegate.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapOFDelegate.mm
+c000000004DCFE531000000000000036A
+t1305470257
+s874
+i"TapTapOFDelegate.h"
+i"OpenFeint/OpenFeint+UserOptions.h"
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapViewController.h
 c000000004DC137F200000000000000EF
@@ -386,6 +519,322 @@ c000000004DC6761B00000000000050D7
 t1304851995
 s20695
 
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OFResources_Universal.bundle
+c000000004DBF5948000000000000419C
+t1304385864
+s16796
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/MPOAuthAPIRequestLoader.h
+c000000004DBF5948000000000000073E
+t1304385864
+s1854
+i<Foundation/Foundation.h>
+i"OFDelegate.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFAbridgedHighScore.h
+c000000004DBF5948000000000000158F
+t1304385864
+s5519
+i"OFResource.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFAchievement.h
+c000000004DBF594800000000000035B2
+t1304385864
+s13746
+i"OFResource.h"
+i"OFSqlQuery.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFBase.h
+c000000004DBF59480000000000001116
+t1304385864
+s4374
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFBragDelegate.h
+c000000004DBF594800000000000010B6
+t1304385864
+s4278
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFCallbackable.h
+c000000004DBF594800000000000002BC
+t1304385864
+s700
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFChallengeDelegate.h
+c000000004DBF59480000000000000D8A
+t1304385864
+s3466
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFControllerLoader.h
+c000000004DBF59480000000000000583
+t1304385864
+s1411
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFDelegate.h
+c000000004DBF59480000000000000873
+t1304385864
+s2163
+i"OFCallbackable.h"
+i"OFRetainedPtr.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFDelegatesContainer.h
+c000000004DBF59480000000000000C84
+t1304385864
+s3204
+i"OpenFeintDelegate.h"
+i"OFChallengeDelegate.h"
+i"OFNotificationDelegate.h"
+i"OFInviteDelegate.h"
+i"OFBragDelegate.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFDependencies.h
+c000000004DBF594800000000000003D2
+t1304385864
+s978
+i<TargetConditionals.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<string>
+i<vector>
+i<map>
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFDistributedScoreEnumerator.h
+c000000004DBF59480000000000002B5A
+t1304385864
+s11098
+i"OFHighScore.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFHashedString.h
+c000000004DBF594800000000000004E0
+t1304385864
+s1248
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFHighScore.h
+c000000004DBF59480000000000002C01
+t1304385864
+s11265
+i"OFResource.h"
+i"OFSqlQuery.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFHighScoreBatchEntry.h
+c000000004DBF59480000000000000535
+t1304385864
+s1333
+i"OFDependencies.h"
+i"OFRetainedPtr.h"
+i"OFISerializer.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFHighScoreService.h
+c000000004DBF59480000000000001C0A
+t1304385864
+s7178
+i"OFService.h"
+i"OFHighScoreBatchEntry.h"
+i<CoreLocation/CoreLocation.h>
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFISerializer.h
+c000000004DBF59480000000000001968
+t1304385864
+s6504
+i"OFSmartObject.h"
+i"OFRTTI.h"
+i"OFISerializerKey.h"
+i"OFISerializerInlines.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFISerializerInlines.h
+c000000004DBF594800000000000015E7
+t1304385864
+s5607
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFISerializerKey.h
+c000000004DBF5948000000000000040F
+t1304385864
+s1039
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFJsonCoder.h
+c000000004DBF59480000000000000BE1
+t1304385864
+s3041
+i"OFJsonParser.h"
+i"OFJsonValueTypes.h"
+i"yajl_gen.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFJsonParser.h
+c000000004DBF59480000000000000528
+t1304385864
+s1320
+i"yajl_parse.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFJsonValueTypes.h
+c000000004DBF594800000000000004FE
+t1304385864
+s1278
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFLeaderboard.h
+c000000004DBF59480000000000001E94
+t1304385864
+s7828
+i"OFHighScore.h"
+i"OFResource.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFLocation.h
+c000000004DBF5948000000000000048C
+t1304385864
+s1164
+i"MPOAuthAPIRequestLoader.h"
+i<CoreLocation/CoreLocation.h>
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFNotificationData.h
+c000000004DBF5948000000000000087B
+t1304385864
+s2171
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFNotificationDelegate.h
+c000000004DBF5948000000000000079A
+t1304385864
+s1946
+i"OFNotificationData.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFPointer.h
+c000000004DBF59480000000000001315
+t1304385864
+s4885
+i"OFBase.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFRTTI.h
+c000000004DBF59480000000000001C41
+t1304385864
+s7233
+i"OFBase.h"
+i"OFHashedString.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFRequestHandle.h
+c000000004DBF59480000000000000770
+t1304385864
+s1904
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFResource+Legacy.h
+c000000004DBF59480000000000000425
+t1304385864
+s1061
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFResource.h
+c000000004DBF59480000000000000410
+t1304385864
+s1040
+i"OFJsonCoder.h"
+i"OFResource+Legacy.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFResourceNameMap.h
+c000000004DBF59480000000000000486
+t1304385864
+s1158
+i"OFRetainedPtr.h"
+i"OFSmartObject.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFRetainedPtr.h
+c000000004DBF594800000000000012D9
+t1304385864
+s4825
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFScoreEnumerator.h
+c000000004DBF59480000000000001E97
+t1304385864
+s7831
+i"OFHighScore.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFService.h
+c000000004DBF59480000000000000854
+t1304385864
+s2132
+i"OFCallbackable.h"
+i"OFPointer.h"
+i"OFResourceNameMap.h"
+i"OFDelegate.h"
+i"OFRequestHandle.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFSessionObserver.h
+c000000004DBF594800000000000003E1
+t1304385864
+s993
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFSmartObject.h
+c000000004DBF594800000000000007B4
+t1304385864
+s1972
+i"OFRTTI.h"
+i"OFSmartObjectInlines.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFSmartObjectInlines.h
+c000000004DBF594800000000000003A8
+t1304385864
+s936
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFSqlQuery.h
+c000000004DBF59480000000000000A5E
+t1304385864
+s2654
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OpenFeint+UserOptions.h
+c000000004DBF59480000000000001255
+t1304385864
+s4693
+i"OFDependencies.h"
+i"OpenFeint.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OpenFeint.h
+c000000004DBF59480000000000002D99
+t1304385864
+s11673
+i"OFDependencies.h"
+i"OFDelegatesContainer.h"
+i"OpenFeintSettings.h"
+i"OFCallbackable.h"
+i"OFLocation.h"
+i"OFSessionObserver.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OpenFeintDelegate.h
+c000000004DBF59480000000000001277
+t1304385864
+s4727
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OpenFeintPrefix.pch
+c000000004DBF5948000000000000052D
+t1304385864
+s1325
+i"OFDependencies.h"
+i"OFBase.h"
+i"OFSmartObject.h"
+i"OFPointer.h"
+i"OFRetainedPtr.h"
+i"OFDelegate.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OpenFeintSettings.h
+c000000004DBF59480000000000002919
+t1304385864
+s10521
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/yajl_common.h
+c000000004DBF59480000000000000CCF
+t1304385864
+s3279
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/yajl_gen.h
+c000000004DBF59480000000000001C28
+t1304385864
+s7208
+i"yajl_common.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/yajl_parse.h
+c000000004DBF59480000000000002132
+t1304385864
+s8498
+i"yajl_common.h"
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/OpenFeint
+c000000004DBF5948000000000123CD5C
+t1304385864
+s19123548
+
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Resources-iPad/MainWindow-iPad.xib
 c000000004DC139910000000000005283
 t1304508817
@@ -455,18 +904,19 @@ t1304508439
 s6553
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/TapTap_Prefix.pch
-c000000004DC137F200000000000000B5
-t1304508402
-s181
+c000000004DCFD63F00000000000000DE
+t1305466431
+s222
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
+i"OpenFeint/OpenFeintPrefix.pch"
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app
-t1305464577
-s2006
+t1305472927
+s2074
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app.dSYM
-t1305464370
+t1305472927
 s102
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/Default-LandscapeLeft-iPad.png
@@ -557,6 +1007,10 @@ N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphones
 t1304860880
 s1129
 
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/OFResources_Universal.bundle
+t1305466304
+s16796
+
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/PkgInfo
 t1304852133
 s8
@@ -590,16 +1044,16 @@ t2
 s0
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/SettingsRootView.nib
-t1305464577
-s3414
+t1305472571
+s3471
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/Silom.ttf
 t1304851995
 s281848
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap
-t1305464370
-s179840
+t1305472927
+s3282060
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTapViewController.nib
 t2
@@ -656,6 +1110,10 @@ s7297
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/openfeint_button.png
 t1305209750
 s5060
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/openfeint_offline_config.xml
+t1305467340
+s1782
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/play_again.png
 t1304743972
@@ -730,11 +1188,11 @@ t1305208466
 s4365
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/GameViewController.o
-t1304894844
+t1305472575
 s86876
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/GameViewController_iPad.o
-t1304894884
+t1305466457
 s87552
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController-460B9650ED71A74B.o
@@ -746,60 +1204,68 @@ t2
 s0
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController.o
-t1305464316
-s87688
+t1305469816
+s87736
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController_iPad.o
-t1304856122
+t1305466457
 s88376
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/MainMenuViewController.o
-t1305463282
+t1305470830
 s51824
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/MainMenuViewController_iPad.o
-t1304859548
+t1305466457
 s51708
 
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/OFDelegate.o
+t2
+s0
+
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController.o
-t1305206945
-s58236
+t1305472926
+s123220
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController_iPad.o
-t1304859547
+t1305466457
 s58264
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/RootViewController.o
-t1305206945
+t1305466456
 s42096
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/RootViewController_iPad.o
-t1304859547
+t1305466456
 s42292
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/SettingsRootController.o
-t1305464370
-s61852
+t1305470830
+s88192
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTap.LinkFileList
-c000000004DCBE09A00000000000008A4
-t1305206938
-s2212
+c000000004DCFE1BB000000000000093D
+t1305469371
+s2365
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate.o
-t1305464315
-s74168
+t1305470618
+s101508
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate_iPad.o
-t1304855323
+t1305466456
 s74460
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapOFDelegate.o
+t1305470259
+s25576
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapViewController.o
 t2
 s0
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/main.o
-t1304508477
+t1305467398
 s6344
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/cold_tapioca.png
@@ -863,8 +1329,8 @@ t1304895283
 s7297
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/main.m
-c000000004DC137F2000000000000016C
-t1304508402
+c000000004DCFD9F4000000000000016C
+t1305467380
 s364
 i<UIKit/UIKit.h>
 
@@ -872,6 +1338,11 @@ N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/openfeint_button.pn
 c000000004DCBEB5300000000000013C4
 t1305209683
 s5060
+
+N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/openfeint_offline_config.xml
+c000000004DCFD95900000000000006F6
+t1305467225
+s1782
 
 N/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/play_again.png
 c000000004DC4CFC60000000000000E1B
@@ -967,6 +1438,18 @@ N/var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1304508477
 s15453392
 
+N/var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-bvirkkjqhleqgocbxeqrgyoasznf/TapTap_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-dsfzbfdfwsuujabvsbyymwxmlhwj/TapTap_Prefix.pch.gch
+t1305467507
+s27461296
+
+N/var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch.gch
+t1305466456
+s15453456
+
 NTapTap-Info.plist
 c000000004DC6761B0000000000000461
 t1304851995
@@ -974,11 +1457,11 @@ s1121
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies327157377#327157377#0(0"0(0#1#0"8634162016#0"0#
+lSLF07#2@18"Check dependencies327165730#327165730#0(0"0(0#1#0"8677086304#0"0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/GameViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s326587644.404998
-e326587644.569591
+s327165372.161530
+e327165375.905681
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/GameViewController.o
@@ -991,11 +1474,11 @@ o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewCon
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m:238: warning: cast from pointer to integer of different size
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m: In function '-[GameViewController viewDidLoad]':
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m:286: warning: cast from pointer to integer of different size
-lSLF07#2@96"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m326587644#326587644#0(577"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m: In function '-[GameViewController gameLogic:]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m:238: warning: cast from pointer to integer of different size/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m: In function '-[GameViewController viewDidLoad]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m:286: warning: cast from pointer to integer of different size2(22@46"Cast from pointer to integer of different size326587644#138#150#0(6@88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m326587642#238#0#238#0#46"cast from pointer to integer of different size0(22@46"Cast from pointer to integer of different size326587644#427#150#0(6@88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m326587642#286#0#286#0#46"cast from pointer to integer of different size0(0#0#88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m8616325536#2161"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/GameViewController.o0#
+lSLF07#2@96"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m327165372#327165375#0(577"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m: In function '-[GameViewController gameLogic:]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m:238: warning: cast from pointer to integer of different size/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m: In function '-[GameViewController viewDidLoad]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m:286: warning: cast from pointer to integer of different size2(22@46"Cast from pointer to integer of different size327165375#138#150#0(6@88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m327164342#238#0#238#0#46"cast from pointer to integer of different size0(22@46"Cast from pointer to integer of different size327165375#427#150#0(6@88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m327164342#286#0#286#0#46"cast from pointer to integer of different size0(0#0#88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m8666277120#2223"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameViewController.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/GameViewController.o0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/GameViewController_iPad.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s326587684.541562
-e326587684.697495
+s327159257.236889
+e327159257.432791
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/GameViewController_iPad.o
@@ -1008,7 +1491,7 @@ o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m:238: warning: cast from pointer to integer of different size
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m: In function '-[GameViewController_iPad viewDidLoad]':
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m:286: warning: cast from pointer to integer of different size
-lSLF07#2@93"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m326587684#326587684#0(575"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m: In function '-[GameViewController_iPad gameLogic:]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m:238: warning: cast from pointer to integer of different size/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m: In function '-[GameViewController_iPad viewDidLoad]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m:286: warning: cast from pointer to integer of different size2(22@46"Cast from pointer to integer of different size326587684#140#147#0(6@85"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m326587668#238#0#238#0#46"cast from pointer to integer of different size0(22@46"Cast from pointer to integer of different size326587684#428#147#0(6@85"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m326587668#286#0#286#0#46"cast from pointer to integer of different size0(0#0#85"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m8603425280#2163"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/GameViewController_iPad.o0#
+lSLF07#2@93"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m327159257#327159257#0(575"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m: In function '-[GameViewController_iPad gameLogic:]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m:238: warning: cast from pointer to integer of different size/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m: In function '-[GameViewController_iPad viewDidLoad]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m:286: warning: cast from pointer to integer of different size2(22@46"Cast from pointer to integer of different size327159257#140#147#0(6@85"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m326587668#238#0#238#0#46"cast from pointer to integer of different size0(22@46"Cast from pointer to integer of different size327159257#428#147#0(6@85"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m326587668#286#0#286#0#46"cast from pointer to integer of different size0(0#0#85"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m8651323328#2225"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameViewController_iPad.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/GameViewController_iPad.o0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController-460B9650ED71A74B.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -1017,8 +1500,8 @@ CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i
 r0
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327157115.647644
-e327157116.075307
+s327162616.600901
+e327162616.885620
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController.o
@@ -1030,11 +1513,11 @@ xcom.apple.compilers.gcc.4_2
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m: In function '-[HighScoresViewController viewDidLoad]':
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m:139: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m:139: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)
-lSLF07#2@102"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m327157115#327157116#0(741"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m: In function '-[HighScoresViewController viewDidLoad]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m:139: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m:139: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)2(22@187"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)327157115#151#297#0(6@94"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m326898396#139#0#139#0#33"'*' is deprecated (declared at *)0(22@183"'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)327157115#448#293#0(6@94"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m326898396#139#0#139#0#33"'*' is deprecated (declared at *)0(0#0#94"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m8639707488#2173"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController.o0#
+lSLF07#2@102"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m327162616#327162616#0(741"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m: In function '-[HighScoresViewController viewDidLoad]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m:139: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m:139: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)2(22@187"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)327162616#151#297#0(6@94"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m326898396#139#0#139#0#33"'*' is deprecated (declared at *)0(22@183"'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)327162616#448#293#0(6@94"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m326898396#139#0#139#0#33"'*' is deprecated (declared at *)0(0#0#94"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m8617437344#2235"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/HighScoresViewController.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController.o0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController_iPad.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/HighScoresViewController_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s326548921.921433
-e326548922.201061
+s327159257.240670
+e327159257.406853
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController_iPad.o
@@ -1043,11 +1526,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@99"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/HighScoresViewController_iPad.m326548921#326548922#0(0"0(0#0#91"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/HighScoresViewController_iPad.m8647853888#2175"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/HighScoresViewController_iPad.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController_iPad.o0#
+lSLF07#2@99"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/HighScoresViewController_iPad.m327159257#327159257#0(0"0(0#0#91"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/HighScoresViewController_iPad.m8651063680#2237"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/HighScoresViewController_iPad.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/HighScoresViewController_iPad.o0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/MainMenuViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327156082.205398
-e327156082.321970
+s327163629.895175
+e327163630.102615
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/MainMenuViewController.o
@@ -1059,11 +1542,11 @@ xcom.apple.compilers.gcc.4_2
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m: In function '-[MainMenuViewController viewDidLoad]':
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m:88: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m:88: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)
-lSLF07#2@100"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m327156082#327156082#0(731"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m: In function '-[MainMenuViewController viewDidLoad]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m:88: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m:88: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)2(22@187"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)327156082#147#294#0(6@92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m326899904#88#0#88#0#33"'*' is deprecated (declared at *)0(22@183"'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)327156082#441#290#0(6@92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m326899904#88#0#88#0#33"'*' is deprecated (declared at *)0(0#0#92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m8646036704#2169"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/MainMenuViewController.o0#
+lSLF07#2@100"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m327163629#327163630#0(731"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m: In function '-[MainMenuViewController viewDidLoad]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m:88: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m:88: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)2(22@187"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)327163630#147#294#0(6@92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m326899904#88#0#88#0#33"'*' is deprecated (declared at *)0(22@183"'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)327163630#441#290#0(6@92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m326899904#88#0#88#0#33"'*' is deprecated (declared at *)0(0#0#92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m8639455200#2231"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/MainMenuViewController.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/MainMenuViewController.o0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/MainMenuViewController_iPad.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/MainMenuViewController_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s326552347.906136
-e326552348.040767
+s327159257.407432
+e327159257.543502
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/MainMenuViewController_iPad.o
@@ -1072,11 +1555,33 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@97"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/MainMenuViewController_iPad.m326552347#326552348#0(0"0(0#0#89"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/MainMenuViewController_iPad.m8656352544#2171"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/MainMenuViewController_iPad.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/MainMenuViewController_iPad.o0#
+lSLF07#2@97"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/MainMenuViewController_iPad.m327159257#327159257#0(0"0(0#0#89"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/MainMenuViewController_iPad.m8635299424#2233"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/MainMenuViewController_iPad.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/MainMenuViewController_iPad.o0#
+
+CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/OFDelegate.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/OFDelegate.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s327162052.469627
+e327162052.529245
+r0
+xCompileC
+xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/OFDelegate.o
+x/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm:9:
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h:11: error: 'OFDelegate' redeclared as different kind of symbol
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFDelegate.h:24: error: previous declaration of 'class OFDelegate'
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h:11: error: redefinition of 'struct OFDelegate'
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h:11: error: trying to finish struct, but kicked out due to previous parse errors
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm:14: confused by earlier errors, bailing out
+lSLF07#2@89"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm327162052#327162052#0(821"In file included from /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm:9:/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h:11: error: 'OFDelegate' redeclared as different kind of symbol/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFDelegate.h:24: error: previous declaration of 'class OFDelegate'/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h:11: error: redefinition of 'struct OFDelegate'/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h:11: error: trying to finish struct, but kicked out due to previous parse errors/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm:14: confused by earlier errors, bailing out5(4@51"'OFDelegate' redeclared as different kind of symbol327162052#107#144#2(7@103"In file included from /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm327162052#18446744073709551615#0#0(6@81"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm327162001#9#0#9#0#0"0(13@135"'OFDelegate' redeclared as different kind of symbol in /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h327162052#18446744073709551615#0#0(6@80"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h327162048#11#0#11#0#0"0(6@80"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h327162048#11#0#11#0#0"0(13@42"Previous declaration of 'class OFDelegate'327162052#251#155#0(6@100"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OpenFeint.framework/Headers/OFDelegate.h326078664#24#0#24#0#0"0(4@35"Redefinition of 'struct OFDelegate'327162052#406#128#0(6@80"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h327162048#11#0#11#0#19"redefinition of '*'0(4@68"Trying to finish struct, but kicked out due to previous parse errors327162052#534#161#0(6@80"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.h327162048#11#0#11#0#0"0(4@39"Confused by earlier errors, bailing out327162052#695#126#0(6@81"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm327162001#14#0#14#0#39"confused by earlier errors, bailing out0(0#0#81"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm8633420352#2229"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-dsfzbfdfwsuujabvsbyymwxmlhwj/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/OFDelegate.mm -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/OFDelegate.o1#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s326899745.011874
-e326899745.351870
+s327159256.994307
+e327159257.114541
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController.o
@@ -1088,11 +1593,27 @@ xcom.apple.compilers.gcc.4_2
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m: In function '-[ResultViewController viewDidLoad]':
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m:68: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m:68: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)
-lSLF07#2@98"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m326899745#326899745#0(723"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m: In function '-[ResultViewController viewDidLoad]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m:68: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m:68: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)2(22@187"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)326899745#143#292#0(6@90"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m326898496#68#0#68#0#33"'*' is deprecated (declared at *)0(22@183"'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)326899745#435#288#0(6@90"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m326898496#68#0#68#0#33"'*' is deprecated (declared at *)0(0#0#90"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m8693494464#2165"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController.o0#
+lSLF07#2@98"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m327159256#327159257#0(723"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m: In function '-[ResultViewController viewDidLoad]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m:68: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m:68: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)2(22@187"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)327159257#143#292#0(6@90"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m326898496#68#0#68#0#33"'*' is deprecated (declared at *)0(22@183"'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)327159257#435#288#0(6@90"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m326898496#68#0#68#0#33"'*' is deprecated (declared at *)0(0#0#90"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m8636992160#2227"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController.o0#
+
+CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s327165726.340001
+e327165726.645955
+r1
+xCompileC
+xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController.o
+x/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm: In function 'void -[ResultViewController viewDidLoad](ResultViewController*, objc_selector*)':
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm:90: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm:90: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)
+lSLF07#2@99"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm327165726#327165726#0(770"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm: In function 'void -[ResultViewController viewDidLoad](ResultViewController*, objc_selector*)':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm:90: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm:90: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)2(22@187"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)327165726#188#293#0(6@91"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm327165725#90#0#90#0#33"'*' is deprecated (declared at *)0(22@183"'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)327165726#481#289#0(6@91"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm327165725#90#0#90#0#33"'*' is deprecated (declared at *)0(0#0#91"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm8678132800#2249"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-dsfzbfdfwsuujabvsbyymwxmlhwj/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/ResultViewController.mm -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController.o0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController_iPad.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/ResultViewController_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s326552347.661209
-e326552347.905930
+s327159257.114837
+e327159257.240566
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController_iPad.o
@@ -1101,11 +1622,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/ResultViewController_iPad.m326552347#326552348#0(0"0(0#0#87"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/ResultViewController_iPad.m8620853568#2167"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/ResultViewController_iPad.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController_iPad.o0#
+lSLF07#2@95"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/ResultViewController_iPad.m327159257#327159257#0(0"0(0#0#87"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/ResultViewController_iPad.m8633549888#2229"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/ResultViewController_iPad.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/ResultViewController_iPad.o0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/RootViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s326899744.787645
-e326899745.266417
+s327159256.898916
+e327159256.994200
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/RootViewController.o
@@ -1114,11 +1635,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/RootViewController.m326899744#326899745#0(0"0(0#0#88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/RootViewController.m8691034304#2161"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/RootViewController.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/RootViewController.o0#
+lSLF07#2@96"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/RootViewController.m327159256#327159256#0(0"0(0#0#88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/RootViewController.m8650951616#2223"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/RootViewController.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/RootViewController.o0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/RootViewController_iPad.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/RootViewController_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s326552347.659395
-e326552347.806215
+s327159256.665538
+e327159256.789935
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/RootViewController_iPad.o
@@ -1127,11 +1648,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/RootViewController_iPad.m326552347#326552347#0(0"0(0#0#85"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/RootViewController_iPad.m8646817472#2163"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/RootViewController_iPad.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/RootViewController_iPad.o0#
+lSLF07#2@93"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/RootViewController_iPad.m327159256#327159256#0(0"0(0#0#85"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/RootViewController_iPad.m8633319904#2225"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/RootViewController_iPad.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/RootViewController_iPad.o0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/SettingsRootController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327157170.458545
-e327157170.644938
+s327159257.433429
+e327159257.574626
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/SettingsRootController.o
@@ -1143,12 +1664,28 @@ xcom.apple.compilers.gcc.4_2
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m: In function '-[SettingsRootController viewDidLoad]':
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m:142: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)
 o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m:142: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)
-lSLF07#2@100"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m327157170#327157170#0(733"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m: In function '-[SettingsRootController viewDidLoad]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m:142: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m:142: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)2(22@187"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)327157170#147#295#0(6@92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m327157169#142#0#142#0#33"'*' is deprecated (declared at *)0(22@183"'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)327157170#442#291#0(6@92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m327157169#142#0#142#0#33"'*' is deprecated (declared at *)0(0#0#92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m8616126432#2169"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/SettingsRootController.o0#
+lSLF07#2@100"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m327159257#327159257#0(733"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m: In function '-[SettingsRootController viewDidLoad]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m:142: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m:142: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)2(22@187"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)327159257#147#295#0(6@92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m327158149#142#0#142#0#33"'*' is deprecated (declared at *)0(22@183"'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)327159257#442#291#0(6@92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m327158149#142#0#142#0#33"'*' is deprecated (declared at *)0(0#0#92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m8633178368#2231"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/SettingsRootController.o0#
+
+CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/SettingsRootController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s327163629.897741
+e327163630.154920
+r1
+xCompileC
+xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/SettingsRootController.o
+x/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm: In function 'void -[SettingsRootController viewDidLoad](SettingsRootController*, objc_selector*)':
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm:148: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm:148: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)
+lSLF07#2@101"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm327163629#327163630#0(782"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm: In function 'void -[SettingsRootController viewDidLoad](SettingsRootController*, objc_selector*)':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm:148: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm:148: warning: 'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)2(22@187"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)327163630#194#296#0(6@93"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm327163598#148#0#148#0#33"'*' is deprecated (declared at *)0(22@183"'font' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:102)327163630#490#292#0(6@93"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm327163598#148#0#148#0#33"'*' is deprecated (declared at *)0(0#0#93"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm8639389248#2253"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-dsfzbfdfwsuujabvsbyymwxmlhwj/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootController.mm -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/SettingsRootController.o0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327157115.646021
-e327157115.914368
-r1
+s327160198.230151
+e327160198.423511
+r0
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate.o
 x/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m
@@ -1156,11 +1693,31 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m327157115#327157115#0(0"0(0#0#87"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m8639903136#2159"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate.o0#
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m:11:20: error: OpenFeint: No such file or directory
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m: In function '-[TapTapAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m:33: error: 'OpenFeint' undeclared (first use in this function)
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m:33: error: (Each undeclared identifier is reported only once
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m:33: error: for each function it appears in.)
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m:36: error: 'settings' undeclared (first use in this function)
+o/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m:37: error: 'delegates' undeclared (first use in this function)
+lSLF07#2@95"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m327160198#327160198#0(1041"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m:11:20: error: OpenFeint: No such file or directory/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m: In function '-[TapTapAppDelegate application:didFinishLaunchingWithOptions:]':/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m:33: error: 'OpenFeint' undeclared (first use in this function)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m:33: error: (Each undeclared identifier is reported only once/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m:33: error: for each function it appears in.)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m:36: error: 'settings' undeclared (first use in this function)/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m:37: error: 'delegates' undeclared (first use in this function)4(4@36"OpenFeint: No such file or directory327160198#0#139#0(6@87"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m327160197#11#0#11#0#28"*: No such file or directory0(4@51"'OpenFeint' undeclared (first use in this function)327160198#307#151#0(6@87"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m327160197#33#0#33#0#43"'*' undeclared (first use in this function)0(4@50"'settings' undeclared (first use in this function)327160198#740#150#0(6@87"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m327160197#36#0#36#0#43"'*' undeclared (first use in this function)0(4@51"'delegates' undeclared (first use in this function)327160198#890#151#0(6@87"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m327160197#37#0#37#0#43"'*' undeclared (first use in this function)0(0#0#87"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m8656660864#2221"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate.o1#
+
+CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s327163418.671375
+e327163418.934283
+r1
+xCompileC
+xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate.o
+x/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.mm327163418#327163418#0(0"0(0#0#88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.mm8637421088#2243"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-dsfzbfdfwsuujabvsbyymwxmlhwj/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate.mm -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate.o0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate_iPad.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s326548123.715133
-e326548123.972305
+s327159256.663645
+e327159256.898808
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate_iPad.o
@@ -1169,14 +1726,27 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@100"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m326548123#326548123#0(0"0(0#0#92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m8637955936#2169"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate_iPad.o0#
+lSLF07#2@100"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m327159256#327159256#0(0"0(0#0#92"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m8634124608#2231"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapAppDelegate_iPad.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapAppDelegate_iPad.o0#
+
+CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapOFDelegate.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapOFDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s327163058.660664
+e327163059.540538
+r1
+xCompileC
+xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapOFDelegate.o
+x/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapOFDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapOFDelegate.mm327163058#327163059#0(0"0(0#0#87"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapOFDelegate.mm8638563072#2241"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-dsfzbfdfwsuujabvsbyymwxmlhwj/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapOFDelegate.mm -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapOFDelegate.o0#
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTapViewController.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/TapTapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/main.o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s326201277.757652
-e326201277.825447
+s327160198.155655
+e327160198.357633
 r1
 xCompileC
 xbuild/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/main.o
@@ -1185,7 +1755,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/main.m326201277#326201277#0(0"0(0#0#66"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/main.m8605081664#2125"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/main.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/main.o0#
+lSLF07#2@74"Compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/main.m327160198#327160198#0(0"0(0#0#66"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/main.m8635482784#2187"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -include /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/main.m -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/GameView.xib
 s326553929.756001
@@ -1237,12 +1807,12 @@ CCompileXIB /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/
 r0
 
 CCompileXIB /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootView.xib
-s327157377.194252
-e327157377.746574
+s327165366.789798
+e327165372.160262
 r1
 xCompileXIB
 x/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootView.xib
-lSLF07#2@39"CompileXIB Classes/SettingsRootView.xib327157377#327157377#0(0"0(0#0#88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootView.xib8635256192#652"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/SettingsRootView.nib /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@39"CompileXIB Classes/SettingsRootView.xib327165366#327165372#0(0"0(0#0#88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootView.xib8649932736#652"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/SettingsRootView.nib /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Classes/SettingsRootView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/GameView.xib
 r0
@@ -1403,6 +1973,15 @@ xbuild/Debug-iphonesimulator/TapTap.app/Icon~ipad.png
 xIcon~ipad.png
 lSLF07#2@18"Copy Icon~ipad.png326266834#326266834#0(0"0(0#0#73"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Icon~ipad.png8630340448#533"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/Icon~ipad.png /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app0#
 
+CCpResource build/Debug-iphonesimulator/TapTap.app/OFResources_Universal.bundle OFResources_Universal.bundle
+s327159103.839685
+e327159104.771964
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TapTap.app/OFResources_Universal.bundle
+xOFResources_Universal.bundle
+lSLF07#2@33"Copy OFResources_Universal.bundle327159103#327159104#0(0"0(0#0#88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OFResources_Universal.bundle8649343968#548"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/OFResources_Universal.bundle /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app0#
+
 CCpResource build/Debug-iphonesimulator/TapTap.app/Settings.bundle Settings.bundle
 s326544937.533908
 e326544937.652739
@@ -1537,6 +2116,15 @@ xCpResource
 xbuild/Debug-iphonesimulator/TapTap.app/openfeint_button.png
 xopenfeint_button.png
 lSLF07#2@25"Copy openfeint_button.png326902550#326902550#0(0"0(0#0#80"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/openfeint_button.png8693333184#540"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/openfeint_button.png /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app0#
+
+CCpResource build/Debug-iphonesimulator/TapTap.app/openfeint_offline_config.xml openfeint_offline_config.xml
+s327160140.398949
+e327160140.442076
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TapTap.app/openfeint_offline_config.xml
+xopenfeint_offline_config.xml
+lSLF07#2@33"Copy openfeint_offline_config.xml327160140#327160140#0(0"0(0#0#88"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/openfeint_offline_config.xml8648648832#548"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/openfeint_offline_config.xml /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app0#
 
 CCpResource build/Debug-iphonesimulator/TapTap.app/play_again.png play_again.png
 s326436772.780962
@@ -1695,23 +2283,23 @@ xtwitter_button.png
 lSLF07#2@23"Copy twitter_button.png326901266#326901266#0(0"0(0#0#78"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/twitter_button.png8690878496#538"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/twitter_button.png /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app0#
 
 CGenerateDSYMFile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app.dSYM /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap
-s327157170.688765
-e327157170.737724
+s327165727.442361
+e327165727.543686
 r1
 xGenerateDSYMFile
 x/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app.dSYM
 x/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/TapTap.app.dSYM build/Debug-iphonesimulator/TapTap.app/TapTap327157170#327157170#0(0"0(0#0#105"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap8645926080#443"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app.dSYM0#
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/TapTap.app.dSYM build/Debug-iphonesimulator/TapTap.app/TapTap327165727#327165727#0(0"0(0#0#105"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap8679892864#443"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app.dSYM0#
 
 CLd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap normal i386
-s327157170.645036
-e327157170.688644
+s327165726.646050
+e327165727.442254
 r1
 xLd
 x/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap
 xnormal
 xi386
-lSLF07#2@110"Link /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap327157170#327157170#0(0"0(0#0#0"8646152128#1000"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -filelist /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTap.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap0#
+lSLF07#2@110"Link /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap327165726#327165727#0(0"0(0#0#0"8672922016#1348"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -filelist /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/Objects-normal/i386/TapTap.LinkFileList -mmacosx-version-min=10.6 -all_load -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenFeint -framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -framework GameKit -framework MapKit -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration -lsqlite3.0 -lz.1.2.3 -o /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/TapTap0#
 
 CProcessInfoPlistFile /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app/Info.plist TapTap-Info.plist
 s326544933.384135
@@ -1735,11 +2323,40 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@28"Precompile TapTap_Prefix.pch326201276#326201277#0(0"0(0#0#77"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/TapTap_Prefix.pch8634992448#1997"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/TapTap_Prefix.pch -o /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-avvacmzpytkecmaclqzdfugzdrwq/TapTap_Prefix.pch.gch0#
 
+CProcessPCH /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-bvirkkjqhleqgocbxeqrgyoasznf/TapTap_Prefix.pch.gch TapTap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch.gch TapTap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327159255.499139
+e327159256.437859
+r1
+xProcessPCH
+x/var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch.gch
+xTapTap_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile TapTap_Prefix.pch327159255#327159256#0(0"0(0#0#77"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/TapTap_Prefix.pch8648949664#2059"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/TapTap_Prefix.pch -o /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-fwfxajkdsnwukpfjvazxpjvqmvbm/TapTap_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-dsfzbfdfwsuujabvsbyymwxmlhwj/TapTap_Prefix.pch.gch TapTap_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s327160298.242660
+e327160307.256599
+r1
+xProcessPCH++
+x/var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-dsfzbfdfwsuujabvsbyymwxmlhwj/TapTap_Prefix.pch.gch
+xTapTap_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile TapTap_Prefix.pch327160298#327160307#0(0"0(0#0#77"/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/TapTap_Prefix.pch8637992160#2080"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-generated-files.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-own-target-headers.hmap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-all-target-headers.hmap -iquote /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/TapTap-project-headers.hmap -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator -F/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/include -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources/i386 -I/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/TapTap.build/Debug-iphonesimulator/TapTap.build/DerivedSources -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/TapTap_Prefix.pch -o /var/folders/Kj/Kj9e+hfjHSiL+uaysdlT0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapTap_Prefix-dsfzbfdfwsuujabvsbyymwxmlhwj/TapTap_Prefix.pch.gch0#
+
 CTouch /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app
-s327157377.748506
-e327157377.751386
+s327165727.543866
+e327165727.546598
 r1
 xTouch
 x/Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app
-lSLF07#2@104"Touch /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app327157377#327157377#0(0"0(0#0#0"8638829664#319"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app0#
+lSLF07#2@104"Touch /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app327165727#327165727#0(0"0(0#0#0"8679680416#319"    cd /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/bgesiak/Programming/Objective-C/MyBeginiPhone/TapTap/build/Debug-iphonesimulator/TapTap.app0#
 

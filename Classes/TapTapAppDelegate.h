@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class RootViewController;
+@class TapTapOFDelegate;
 
 @interface TapTapAppDelegate : NSObject <UIApplicationDelegate, NSXMLParserDelegate> {
     UIWindow *window;
@@ -21,6 +22,9 @@
 	NSMutableDictionary *newScore;
 	NSString *currentKey;
 	NSMutableString *currentStringValue;
+
+	// OpenFeint
+	TapTapOFDelegate *ofDelegate;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
@@ -32,6 +36,8 @@
 - (void) getHighScores;
 - (void) getHighScoresFromWebService: (NSString *) urlString;
 - (void) parseHighScores: (NSData *) highScoresXMLData;
+
+
 
 @end
 

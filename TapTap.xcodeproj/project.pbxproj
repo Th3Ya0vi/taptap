@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* TapTapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TapTapAppDelegate.m */; };
+		1D3623260D0F684500981E51 /* TapTapAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TapTapAppDelegate.mm */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -35,7 +35,7 @@
 		DA219B511372A690000A250A /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = DA219B4D1372A690000A250A /* tap.png */; };
 		DA219B531372A690000A250A /* ready.png in Resources */ = {isa = PBXBuildFile; fileRef = DA219B4F1372A690000A250A /* ready.png */; };
 		DA32C1F31374C73200255D64 /* tap_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C1F21374C73200255D64 /* tap_highlighted.png */; };
-		DA32C45A1374F7DF00255D64 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32C4581374F7DF00255D64 /* ResultViewController.m */; };
+		DA32C45A1374F7DF00255D64 /* ResultViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA32C4581374F7DF00255D64 /* ResultViewController.mm */; };
 		DA32C45B1374F7DF00255D64 /* ResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA32C4591374F7DF00255D64 /* ResultView.xib */; };
 		DA32C4961375062900255D64 /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C4951375062900255D64 /* play_again.png */; };
 		DA32C51913751CC400255D64 /* total_taps.png in Resources */ = {isa = PBXBuildFile; fileRef = DA32C51813751CC400255D64 /* total_taps.png */; };
@@ -43,11 +43,27 @@
 		DA5AB8C3137171C100147B9E /* TapTapAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AB8C2137171C100147B9E /* TapTapAppDelegate_iPad.m */; };
 		DA5AB8C91371726B00147B9E /* RootViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AB8C81371726B00147B9E /* RootViewController_iPad.m */; };
 		DA70C1DF1377562800CC2EDF /* logo_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DA70C1DE1377562800CC2EDF /* logo_ipad.png */; };
-		DAB4EDB9137C15BD005DC2C9 /* SettingsRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4EDB7137C15BD005DC2C9 /* SettingsRootController.m */; };
+		DAB4EDB9137C15BD005DC2C9 /* SettingsRootController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAB4EDB7137C15BD005DC2C9 /* SettingsRootController.mm */; };
 		DAB4EDBA137C15BD005DC2C9 /* SettingsRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB4EDB8137C15BD005DC2C9 /* SettingsRootView.xib */; };
 		DAB4EDEA137C1DEF005DC2C9 /* twitter_button.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB4EDE9137C1DEF005DC2C9 /* twitter_button.png */; };
 		DAB4EDEE137C2182005DC2C9 /* facebook_button.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB4EDED137C2182005DC2C9 /* facebook_button.png */; };
 		DAB4EDF0137C22E3005DC2C9 /* openfeint_button.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB4EDEF137C22E3005DC2C9 /* openfeint_button.png */; };
+		DAC8A9C7138009E700DA90BE /* OpenFeint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8A9C6138009E700DA90BE /* OpenFeint.framework */; };
+		DAC8ABEB13800A1000DA90BE /* OFResources_Universal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAC8ABEA13800A1000DA90BE /* OFResources_Universal.bundle */; };
+		DAC8ADF613800D2300DA90BE /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8ADF513800D2300DA90BE /* AddressBook.framework */; };
+		DAC8ADF813800D2300DA90BE /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8ADF713800D2300DA90BE /* AddressBookUI.framework */; };
+		DAC8ADFA13800D2300DA90BE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8ADF913800D2300DA90BE /* CFNetwork.framework */; };
+		DAC8ADFC13800D2300DA90BE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8ADFB13800D2300DA90BE /* CoreLocation.framework */; };
+		DAC8ADFE13800D2300DA90BE /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8ADFD13800D2300DA90BE /* GameKit.framework */; };
+		DAC8AE0013800D2300DA90BE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8ADFF13800D2300DA90BE /* MapKit.framework */; };
+		DAC8AE0213800D2300DA90BE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8AE0113800D2300DA90BE /* MobileCoreServices.framework */; };
+		DAC8AE0413800D2300DA90BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8AE0313800D2300DA90BE /* QuartzCore.framework */; };
+		DAC8AE0613800D2300DA90BE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8AE0513800D2300DA90BE /* Security.framework */; };
+		DAC8AE0813800D2300DA90BE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8AE0713800D2300DA90BE /* SystemConfiguration.framework */; };
+		DAC8AE0A13800D2300DA90BE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8AE0913800D2300DA90BE /* libsqlite3.0.dylib */; };
+		DAC8AE0C13800D2300DA90BE /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8AE0B13800D2300DA90BE /* libz.1.2.3.dylib */; };
+		DAC8B05A1380190D00DA90BE /* TapTapOFDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAC8B0591380190D00DA90BE /* TapTapOFDelegate.mm */; };
+		DAC8B1191380305E00DA90BE /* openfeint_offline_config.xml in Resources */ = {isa = PBXBuildFile; fileRef = DAC8B1181380305E00DA90BE /* openfeint_offline_config.xml */; };
 		DAECC3DD13762DDE001280F6 /* Silom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAECC3DC13762DDE001280F6 /* Silom.ttf */; };
 		DAECC4E1137690D5001280F6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAECC4E0137690D5001280F6 /* Settings.bundle */; };
 		DAECC5FE1376B729001280F6 /* ResultViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DAECC5FD1376B729001280F6 /* ResultViewController_iPad.m */; };
@@ -63,7 +79,7 @@
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* TapTapAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapTapAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* TapTapAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapTapAppDelegate.m; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TapTapAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TapTapAppDelegate.mm; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* TapTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,7 +114,7 @@
 		DA219B4F1372A690000A250A /* ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready.png; sourceTree = "<group>"; };
 		DA32C1F21374C73200255D64 /* tap_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap_highlighted.png; sourceTree = "<group>"; };
 		DA32C4571374F7DF00255D64 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
-		DA32C4581374F7DF00255D64 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		DA32C4581374F7DF00255D64 /* ResultViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResultViewController.mm; sourceTree = "<group>"; };
 		DA32C4591374F7DF00255D64 /* ResultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ResultView.xib; path = Classes/ResultView.xib; sourceTree = "<group>"; };
 		DA32C4951375062900255D64 /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_again.png; sourceTree = "<group>"; };
 		DA32C51813751CC400255D64 /* total_taps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = total_taps.png; sourceTree = "<group>"; };
@@ -109,11 +125,28 @@
 		DA5AB8C81371726B00147B9E /* RootViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController_iPad.m; sourceTree = "<group>"; };
 		DA70C1DE1377562800CC2EDF /* logo_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_ipad.png; sourceTree = "<group>"; };
 		DAB4EDB6137C15BD005DC2C9 /* SettingsRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsRootController.h; sourceTree = "<group>"; };
-		DAB4EDB7137C15BD005DC2C9 /* SettingsRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsRootController.m; sourceTree = "<group>"; };
+		DAB4EDB7137C15BD005DC2C9 /* SettingsRootController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SettingsRootController.mm; sourceTree = "<group>"; };
 		DAB4EDB8137C15BD005DC2C9 /* SettingsRootView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsRootView.xib; path = Classes/SettingsRootView.xib; sourceTree = "<group>"; };
 		DAB4EDE9137C1DEF005DC2C9 /* twitter_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_button.png; sourceTree = "<group>"; };
 		DAB4EDED137C2182005DC2C9 /* facebook_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_button.png; sourceTree = "<group>"; };
 		DAB4EDEF137C22E3005DC2C9 /* openfeint_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openfeint_button.png; sourceTree = "<group>"; };
+		DAC8A9C6138009E700DA90BE /* OpenFeint.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenFeint.framework; sourceTree = "<group>"; };
+		DAC8ABEA13800A1000DA90BE /* OFResources_Universal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OFResources_Universal.bundle; sourceTree = "<group>"; };
+		DAC8ADF513800D2300DA90BE /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		DAC8ADF713800D2300DA90BE /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		DAC8ADF913800D2300DA90BE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DAC8ADFB13800D2300DA90BE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DAC8ADFD13800D2300DA90BE /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		DAC8ADFF13800D2300DA90BE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DAC8AE0113800D2300DA90BE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DAC8AE0313800D2300DA90BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DAC8AE0513800D2300DA90BE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DAC8AE0713800D2300DA90BE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DAC8AE0913800D2300DA90BE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		DAC8AE0B13800D2300DA90BE /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		DAC8B0581380190D00DA90BE /* TapTapOFDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapTapOFDelegate.h; sourceTree = "<group>"; };
+		DAC8B0591380190D00DA90BE /* TapTapOFDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TapTapOFDelegate.mm; sourceTree = "<group>"; };
+		DAC8B1181380305E00DA90BE /* openfeint_offline_config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = openfeint_offline_config.xml; sourceTree = "<group>"; };
 		DAECC3DC13762DDE001280F6 /* Silom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silom.ttf; sourceTree = "<group>"; };
 		DAECC4E0137690D5001280F6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		DAECC5FC1376B729001280F6 /* ResultViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController_iPad.h; sourceTree = "<group>"; };
@@ -138,6 +171,19 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				DAC8A9C7138009E700DA90BE /* OpenFeint.framework in Frameworks */,
+				DAC8ADF613800D2300DA90BE /* AddressBook.framework in Frameworks */,
+				DAC8ADF813800D2300DA90BE /* AddressBookUI.framework in Frameworks */,
+				DAC8ADFA13800D2300DA90BE /* CFNetwork.framework in Frameworks */,
+				DAC8ADFC13800D2300DA90BE /* CoreLocation.framework in Frameworks */,
+				DAC8ADFE13800D2300DA90BE /* GameKit.framework in Frameworks */,
+				DAC8AE0013800D2300DA90BE /* MapKit.framework in Frameworks */,
+				DAC8AE0213800D2300DA90BE /* MobileCoreServices.framework in Frameworks */,
+				DAC8AE0413800D2300DA90BE /* QuartzCore.framework in Frameworks */,
+				DAC8AE0613800D2300DA90BE /* Security.framework in Frameworks */,
+				DAC8AE0813800D2300DA90BE /* SystemConfiguration.framework in Frameworks */,
+				DAC8AE0A13800D2300DA90BE /* libsqlite3.0.dylib in Frameworks */,
+				DAC8AE0C13800D2300DA90BE /* libz.1.2.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +237,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DAC8B1181380305E00DA90BE /* openfeint_offline_config.xml */,
 				DAB4EDB8137C15BD005DC2C9 /* SettingsRootView.xib */,
 				2899E5210DE3E06400AC0155 /* MainMenuView.xib */,
 				DA219B401372A3EA000A250A /* GameView.xib */,
@@ -205,9 +252,22 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DAC8A9C6138009E700DA90BE /* OpenFeint.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				DAC8ADF513800D2300DA90BE /* AddressBook.framework */,
+				DAC8ADF713800D2300DA90BE /* AddressBookUI.framework */,
+				DAC8ADF913800D2300DA90BE /* CFNetwork.framework */,
+				DAC8ADFB13800D2300DA90BE /* CoreLocation.framework */,
+				DAC8ADFD13800D2300DA90BE /* GameKit.framework */,
+				DAC8ADFF13800D2300DA90BE /* MapKit.framework */,
+				DAC8AE0113800D2300DA90BE /* MobileCoreServices.framework */,
+				DAC8AE0313800D2300DA90BE /* QuartzCore.framework */,
+				DAC8AE0513800D2300DA90BE /* Security.framework */,
+				DAC8AE0713800D2300DA90BE /* SystemConfiguration.framework */,
+				DAC8AE0913800D2300DA90BE /* libsqlite3.0.dylib */,
+				DAC8AE0B13800D2300DA90BE /* libz.1.2.3.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,8 +283,9 @@
 		DA2199B813726469000A250A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107310486CEB800E47090 /* TapTap-Info.plist */,
 				DAECC4E0137690D5001280F6 /* Settings.bundle */,
+				DAC8ABEA13800A1000DA90BE /* OFResources_Universal.bundle */,
+				8D1107310486CEB800E47090 /* TapTap-Info.plist */,
 				DAECC3DE13762DEA001280F6 /* Fonts */,
 				DA219A16137283AE000A250A /* Images */,
 				DA219A0413726F49000A250A /* Icons */,
@@ -302,7 +363,7 @@
 			isa = PBXGroup;
 			children = (
 				DA32C4571374F7DF00255D64 /* ResultViewController.h */,
-				DA32C4581374F7DF00255D64 /* ResultViewController.m */,
+				DA32C4581374F7DF00255D64 /* ResultViewController.mm */,
 			);
 			name = Result;
 			sourceTree = "<group>";
@@ -355,7 +416,7 @@
 			isa = PBXGroup;
 			children = (
 				DAB4EDB6137C15BD005DC2C9 /* SettingsRootController.h */,
-				DAB4EDB7137C15BD005DC2C9 /* SettingsRootController.m */,
+				DAB4EDB7137C15BD005DC2C9 /* SettingsRootController.mm */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -391,7 +452,9 @@
 			isa = PBXGroup;
 			children = (
 				1D3623240D0F684500981E51 /* TapTapAppDelegate.h */,
-				1D3623250D0F684500981E51 /* TapTapAppDelegate.m */,
+				1D3623250D0F684500981E51 /* TapTapAppDelegate.mm */,
+				DAC8B0581380190D00DA90BE /* TapTapOFDelegate.h */,
+				DAC8B0591380190D00DA90BE /* TapTapOFDelegate.mm */,
 			);
 			name = Delegate;
 			sourceTree = "<group>";
@@ -533,6 +596,8 @@
 				DAB4EDEA137C1DEF005DC2C9 /* twitter_button.png in Resources */,
 				DAB4EDEE137C2182005DC2C9 /* facebook_button.png in Resources */,
 				DAB4EDF0137C22E3005DC2C9 /* openfeint_button.png in Resources */,
+				DAC8ABEB13800A1000DA90BE /* OFResources_Universal.bundle in Resources */,
+				DAC8B1191380305E00DA90BE /* openfeint_offline_config.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,19 +609,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* TapTapAppDelegate.m in Sources */,
+				1D3623260D0F684500981E51 /* TapTapAppDelegate.mm in Sources */,
 				28D7ACF80DDB3853001CB0EB /* MainMenuViewController.m in Sources */,
 				DA5AB8C3137171C100147B9E /* TapTapAppDelegate_iPad.m in Sources */,
 				DA5AB8C91371726B00147B9E /* RootViewController_iPad.m in Sources */,
 				DA219A4213728E7C000A250A /* HighScoresViewController.m in Sources */,
 				DA219A7A13729655000A250A /* RootViewController.m in Sources */,
 				DA219B411372A3EA000A250A /* GameViewController.m in Sources */,
-				DA32C45A1374F7DF00255D64 /* ResultViewController.m in Sources */,
+				DA32C45A1374F7DF00255D64 /* ResultViewController.mm in Sources */,
 				DAECC5FE1376B729001280F6 /* ResultViewController_iPad.m in Sources */,
 				DAECC6021376B7A7001280F6 /* GameViewController_iPad.m in Sources */,
 				DAECC6D61376B870001280F6 /* HighScoresViewController_iPad.m in Sources */,
 				DAECC6DA1376B90D001280F6 /* MainMenuViewController_iPad.m in Sources */,
-				DAB4EDB9137C15BD005DC2C9 /* SettingsRootController.m in Sources */,
+				DAB4EDB9137C15BD005DC2C9 /* SettingsRootController.mm in Sources */,
+				DAC8B05A1380190D00DA90BE /* TapTapOFDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +635,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -586,6 +656,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TapTap_Prefix.pch;
 				INFOPLIST_FILE = "TapTap-Info.plist";
@@ -604,6 +678,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-all_load";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
@@ -618,6 +693,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
