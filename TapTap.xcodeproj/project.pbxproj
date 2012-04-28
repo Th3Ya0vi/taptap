@@ -61,9 +61,9 @@
 		DAC8AE0613800D2300DA90BE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8AE0513800D2300DA90BE /* Security.framework */; };
 		DAC8AE0813800D2300DA90BE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8AE0713800D2300DA90BE /* SystemConfiguration.framework */; };
 		DAC8AE0A13800D2300DA90BE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8AE0913800D2300DA90BE /* libsqlite3.0.dylib */; };
-		DAC8AE0C13800D2300DA90BE /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8AE0B13800D2300DA90BE /* libz.1.2.3.dylib */; };
 		DAC8B05A1380190D00DA90BE /* TapTapOFDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAC8B0591380190D00DA90BE /* TapTapOFDelegate.mm */; };
 		DAC8B1191380305E00DA90BE /* openfeint_offline_config.xml in Resources */ = {isa = PBXBuildFile; fileRef = DAC8B1181380305E00DA90BE /* openfeint_offline_config.xml */; };
+		DAE22E4E154C7F24009E0A77 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE22E4D154C7F24009E0A77 /* libz.1.2.5.dylib */; };
 		DAECC3DD13762DDE001280F6 /* Silom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAECC3DC13762DDE001280F6 /* Silom.ttf */; };
 		DAECC4E1137690D5001280F6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAECC4E0137690D5001280F6 /* Settings.bundle */; };
 		DAECC5FE1376B729001280F6 /* ResultViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DAECC5FD1376B729001280F6 /* ResultViewController_iPad.m */; };
@@ -143,10 +143,10 @@
 		DAC8AE0513800D2300DA90BE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DAC8AE0713800D2300DA90BE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DAC8AE0913800D2300DA90BE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		DAC8AE0B13800D2300DA90BE /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		DAC8B0581380190D00DA90BE /* TapTapOFDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapTapOFDelegate.h; sourceTree = "<group>"; };
 		DAC8B0591380190D00DA90BE /* TapTapOFDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TapTapOFDelegate.mm; sourceTree = "<group>"; };
 		DAC8B1181380305E00DA90BE /* openfeint_offline_config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = openfeint_offline_config.xml; sourceTree = "<group>"; };
+		DAE22E4D154C7F24009E0A77 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		DAECC3DC13762DDE001280F6 /* Silom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silom.ttf; sourceTree = "<group>"; };
 		DAECC4E0137690D5001280F6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		DAECC5FC1376B729001280F6 /* ResultViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController_iPad.h; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 				DAC8AE0613800D2300DA90BE /* Security.framework in Frameworks */,
 				DAC8AE0813800D2300DA90BE /* SystemConfiguration.framework in Frameworks */,
 				DAC8AE0A13800D2300DA90BE /* libsqlite3.0.dylib in Frameworks */,
-				DAC8AE0C13800D2300DA90BE /* libz.1.2.3.dylib in Frameworks */,
+				DAE22E4E154C7F24009E0A77 /* libz.1.2.5.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +267,7 @@
 				DAC8AE0513800D2300DA90BE /* Security.framework */,
 				DAC8AE0713800D2300DA90BE /* SystemConfiguration.framework */,
 				DAC8AE0913800D2300DA90BE /* libsqlite3.0.dylib */,
-				DAC8AE0B13800D2300DA90BE /* libz.1.2.3.dylib */,
+				DAE22E4D154C7F24009E0A77 /* libz.1.2.5.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
